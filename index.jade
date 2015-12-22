@@ -2,9 +2,9 @@ extends layouts/default.jade
 
 block content
   secition.grid-wrap
-    ul#grid.grid.swipe-right
+    ul#grid.grid.swipe-down
       li.grid-sizer
       - for job in public._data.jobs
         li
           a				
-            img(src="#{job.img}")
+            img(src="#{job.minImg}")
