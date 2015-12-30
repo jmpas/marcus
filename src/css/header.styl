@@ -8,7 +8,18 @@ header
 
   &.top
     animation goTop 1.4s ease-out 2s forwards
-  
+    
+    .logo
+      .name
+        font-size .875rem
+        transition font-size 2s
+        transition-delay 1.8s
+
+      .text
+        font-size .563rem
+        transition font-size 2s
+        transition-delay 1.8s
+
 .logo
 
   .name
@@ -16,18 +27,12 @@ header
     font-size 1.9rem
     text-align center
     
-    animation-name fadeIn, fontSizeLogoName
-    animation-duration .8s,.8s
-    animation-timing-function ease-out
-    animation-fill-mode forwards
-    animation-delay 0s,2s
-
+    animation fadeIn .8s ease-out forwards
+    
   .text
     opacity 0
     font-size 1.55rem
     text-align center
-    animation-name fadeInLogoText, fontSizeLogoText
-    animation-duration .8s, .8s
-    animation-timing-function ease-out
-    animation-fill-mode forwards
-    animation-delay .8s, 2s  
+    
+    animation fadeIn .8s ease-out forwards
+    animation-delay .8s
