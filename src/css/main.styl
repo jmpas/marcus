@@ -1,0 +1,33 @@
+@import "../../node_modules/kouto-swiss"
+normalize()
+meyer-reset()
+@import "variables.styl"
+@import "animations.styl"
+@import "grid.styl"
+@import "footer.styl"
+@import "header.styl"
+@import "logo.styl"
+
+body
+  height 100%
+  left 0
+  right 0
+  margin auto
+  font 16px/1.5 "Open Sans","Helvetica Neue",Helvetica,arial,sans-serif
+  overflow-x hidden
+  text-rendering optimizeLegibility
+  font-weight 300
+  letter-spacing .1px
+  -webkit-font-smoothing antialiased
+
+main
+  background secondary
+
+
+  +media-query( only screen, min-width 640px )
+    padding rem(5px) rem(20px)
+  +media-query( only screen, min-width 960px )
+    padding rem(10px) rem(50px)
+  +media-query( only screen, min-width 1080px )
+    padding rem(10px) rem(200px)
+
