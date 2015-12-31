@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/watch-cli/bin/watch -p 'src/**/*' -c 'npm run build'",
     "build": "rm -rf www && ./node_modules/.bin/harp compile src && mv src/www . && cp -R src/js www && cp -R src/assets www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/Nipher/marcus#readme",
   "dependencies": {
     "harp": "^0.20.1",
-    "kouto-swiss": "^0.11.14"
+    "kouto-swiss": "^0.11.14",
+    "watch-cli": "^0.2.1"
   }
 }

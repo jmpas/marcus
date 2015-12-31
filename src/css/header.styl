@@ -11,15 +11,18 @@ header
     
     .logo
       .name
-        font-size .875rem
-        transition font-size 2s
-        transition-delay 1.8s
+        animation-name fadeIn, fontSizeLogoName
+        animation-duration .8s, .8s
+        animation-timing-function ease-out
+        animation-fill-mode forwards
+        animation-delay 0s, 2s
 
       .text
-        font-size .563rem
-        transition font-size 2s
-        transition-delay 1.8s
-
+        animation-name fadeIn, fontSizeLogoText
+        animation-duration .8s, .8s
+        animation-timing-function ease-out
+        animation-fill-mode forwards
+        animation-delay .8s, 2s
 .logo
 
   .name
