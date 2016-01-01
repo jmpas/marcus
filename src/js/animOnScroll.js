@@ -12,6 +12,8 @@
     
     'use strict';
     
+    var msnry;
+
     var docElem = window.document.documentElement;
 
     function getViewportH() {
@@ -114,20 +116,12 @@
             imagesLoaded( this.el, function() {
                 
                 // initialize masonry
-                new Masonry( self.el, {
+                msnry = new Masonry( self.el, {
                     itemSelector: '.grid-item',
                     transitionDuration : 0
                 } );
                 
                 if( Modernizr.cssanimations ) {
-                    // the items already shown...
-                    self.items.forEach( function( el, i ) {
-                        if( inViewport( el ) ) {
-                            self._checkTotalRendered();
-                            classie.add( el, 'shown' );
-                        }
-                    } );
-
                     // animate on scroll the items inside the viewport
                     window.addEventListener( 'scroll', function() {
                         self._onScrollFn();
@@ -149,24 +143,44 @@
         _scrollPage : function() {
             var self = this;
             this.items.forEach( function( el, i ) {
+                var img, imgDesk, imgMobile;
+
                 if( !classie.has( el, 'shown' ) && !classie.has( el, 'animate' ) && inViewport( el, self.options.viewportFactor ) ) {
-                    setTimeout( function() {
-                        var perspY = scrollY() + getViewportH() / 2;
-                        self.el.style.WebkitPerspectiveOrigin = '50% ' + perspY + 'px';
-                        self.el.style.MozPerspectiveOrigin = '50% ' + perspY + 'px';
-                        self.el.style.perspectiveOrigin = '50% ' + perspY + 'px';
+                  msnry.layout();
+                  img = el.querySelector('img');
 
-                        self._checkTotalRendered();
+                  if (classie.has(img, 'lazy-load')) {
+                    imgDesk = img.getAttribute('data-src');
+                    imgMobile = img.getAttribute('data-src-mobile');
 
-                        if( self.options.minDuration && self.options.maxDuration ) {
-                            var randDuration = ( Math.random() * ( self.options.maxDuration - self.options.minDuration ) + self.options.minDuration ) + 's';
-                            el.style.WebkitAnimationDuration = randDuration;
-                            el.style.MozAnimationDuration = randDuration;
-                            el.style.animationDuration = randDuration;
-                        }
-                        
-                        classie.add( el, 'animate' );
-                    }, 25 );
+                    if (imgMobile && screen.width <= 500) {
+                      img.src = imgMobile;
+                    } else {
+                      img.src = imgDesk;
+                    }
+
+                    img.removeAttribute('data-src');
+                    img.removeAttribute('data-src-mobile');
+                  }
+
+                  imagesLoaded(el, function () {
+                      var perspY = scrollY() + getViewportH() / 2;
+
+                      self.el.style.WebkitPerspectiveOrigin = '50% ' + perspY + 'px';
+                      self.el.style.MozPerspectiveOrigin = '50% ' + perspY + 'px';
+                      self.el.style.perspectiveOrigin = '50% ' + perspY + 'px';
+
+                      self._checkTotalRendered();
+
+                      if( self.options.minDuration && self.options.maxDuration ) {
+                          var randDuration = ( Math.random() * ( self.options.maxDuration - self.options.minDuration ) + self.options.minDuration ) + 's';
+                          el.style.WebkitAnimationDuration = randDuration;
+                          el.style.MozAnimationDuration = randDuration;
+                          el.style.animationDuration = randDuration;
+                      }
+                      
+                      classie.add( el, 'animate' );
+                  });
                 }
             });
             this.didScroll = false;

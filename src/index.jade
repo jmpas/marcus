@@ -4,10 +4,13 @@ block content
   secition.grid-wrap
     #grid.grid.swipe-down
       .grid-sizer
-      - for job in jobs
+      - each job, i in jobs
         .grid-item
           a
-            img(src="#{job.minImg}")
+            if i < 8
+              img(src="#{job.minImg}")
+            else
+              img.lazy-load(data-src="#{job.img}" data-src-mobile="#{job.minImg}")
             .overlay
               h2=job.title
               p=job.desc
