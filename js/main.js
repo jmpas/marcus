@@ -4,7 +4,10 @@
   imagesLoaded(grid, init);
 
   function init () {
-    var animHandler = new AnimOnScroll(document.getElementById( 'grid' ), {
+    var header = document.querySelector('header');
+    header.classList.add('top');
+
+    var animHandler = new AnimOnScroll(document.getElementById('grid'), {
       minDuration: 0.4,
       maxDuration: 0.7,
       viewportFactor: 0.2
