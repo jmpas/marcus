@@ -158,9 +158,6 @@
                     } else {
                       img.src = imgDesk;
                     }
-
-                    img.removeAttribute('data-src');
-                    img.removeAttribute('data-src-mobile');
                   }
 
                   imagesLoaded(el, function () {
