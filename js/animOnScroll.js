@@ -146,7 +146,6 @@
                 var img, imgDesk, imgMobile;
 
                 if( !classie.has( el, 'shown' ) && !classie.has( el, 'animate' ) && inViewport( el, self.options.viewportFactor ) ) {
-                  msnry.layout();
                   img = el.querySelector('img');
 
                   if (classie.has(img, 'lazy-load')) {
@@ -161,22 +160,24 @@
                   }
 
                   imagesLoaded(el, function () {
-                      var perspY = scrollY() + getViewportH() / 2;
+                    var perspY = scrollY() + getViewportH() / 2;
+                    
+                    msnry.layout();
 
-                      self.el.style.WebkitPerspectiveOrigin = '50% ' + perspY + 'px';
-                      self.el.style.MozPerspectiveOrigin = '50% ' + perspY + 'px';
-                      self.el.style.perspectiveOrigin = '50% ' + perspY + 'px';
+                    self.el.style.WebkitPerspectiveOrigin = '50% ' + perspY + 'px';
+                    self.el.style.MozPerspectiveOrigin = '50% ' + perspY + 'px';
+                    self.el.style.perspectiveOrigin = '50% ' + perspY + 'px';
 
-                      self._checkTotalRendered();
+                    self._checkTotalRendered();
 
-                      if( self.options.minDuration && self.options.maxDuration ) {
-                          var randDuration = ( Math.random() * ( self.options.maxDuration - self.options.minDuration ) + self.options.minDuration ) + 's';
-                          el.style.WebkitAnimationDuration = randDuration;
-                          el.style.MozAnimationDuration = randDuration;
-                          el.style.animationDuration = randDuration;
-                      }
-                      
-                      classie.add( el, 'animate' );
+                    if( self.options.minDuration && self.options.maxDuration ) {
+                        var randDuration = ( Math.random() * ( self.options.maxDuration - self.options.minDuration ) + self.options.minDuration ) + 's';
+                        el.style.WebkitAnimationDuration = randDuration;
+                        el.style.MozAnimationDuration = randDuration;
+                        el.style.animationDuration = randDuration;
+                    }
+                    
+                    classie.add( el, 'animate' );
                   });
                 }
             });
