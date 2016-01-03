@@ -147,7 +147,8 @@
       });
     },
     _scrollPage: function () {
-      var self = this;
+      var self = this,
+          items = [];
 
       this.items.forEach(function (el, i) {
         var img, imgDesk, imgMobile;
@@ -187,11 +188,14 @@
             
             classie.add(el, 'animate');
           });
+        } else {
+          items.push(el);
         }
 
       });
 
       this.didScroll = false;
+      this.items = items;
     },
     _resizeHandler: function () {
       var self = this;
