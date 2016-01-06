@@ -7,7 +7,7 @@
     var header = document.querySelector('header');
     header.classList.add('top');
 
-    var animHandler = new AnimOnScroll(document.getElementById('grid'), {
+    var animHandler = new AnimOnScroll(grid, {
       minDuration: 0.4,
       maxDuration: 0.7,
       viewportFactor: 0.2
