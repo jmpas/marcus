@@ -1,871 +1,2382 @@
-{ 
-  "globals": {
-    "jobs": [
-      {
-        "id": "1",
-        "title": "Golfinhos",
-        "desc": "Aerografia sobre tela",
-        "img": "assets/images/Golfinhos.jpg",
-        "minImg": "assets/images/min_Golfinhos.jpg",
-        "type": "aerografia"
-      },
-      {
-        "id": "2",
-        "title": "Óleo sobre tela",
-        "desc": "",
-        "img": "assets/images/img.jpg",
-        "minImg": "assets/images/min_img.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "3",
-        "title": "Alto mar",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Alto_mar.jpg",
-        "minImg": "assets/images/min_Alto_mar.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "4",
-        "title": "Rochedos",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Rochedos.jpg",
-        "minImg": "assets/images/min_Rochedos.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "5",
-        "title": "Pintura decorativa",
-        "desc": "Acrílico na parede",
-        "img": "assets/images/pintura_decorativa.jpg",
-        "minImg": "assets/images/min_pintura_decorativa.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "6",
-        "title": "Varanda na fazenda",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Varanda_fazenda.jpg",
-        "minImg": "assets/images/min_Varanda_fazenda.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "7",
-        "title": "Floresta",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Floresta.jpg",
-        "minImg": "assets/images/min_Floresta.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "8",
-        "title": "Pantera",
-        "desc": "Aerografia",
-        "img": "assets/images/Pantera.jpg",
-        "minImg": "assets/images/min_Pantera.jpg",
-        "type": "aerografia"
-      },
-      {
-        "id": "9",
-        "title": "Morte do artista",
-        "desc": "Óleo sobre madeira",
-        "img": "assets/images/Morte_do_artista.jpg",
-        "minImg": "assets/images/min_Morte_do_artista.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "10",
-        "title": "Tango",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Tango.jpg",
-        "minImg": "assets/images/min_Tango.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "11",
-        "title": "Baile de tango",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Baile_tango.jpg",
-        "minImg": "assets/images/min_Baile_tango.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "12",
-        "title": "Baile de tango (2)",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/baile_de_tango2.jpg",
-        "minImg": "assets/images/min_baile_de_tango2.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "13",
-        "title": "Tango argentino",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/tango_argentino.jpg",
-        "minImg": "assets/images/min_tango_argentino.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "14",
-        "title": "Alma do Tango",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/alma_do_tango.jpg",
-        "minImg": "assets/images/min_alma_do_tango.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "15",
-        "title": "Gato",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Gato.jpg",
-        "minImg": "assets/images/min_Gato.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "16",
-        "title": "Gato (2)",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Gato2.jpg",
-        "minImg": "assets/images/min_Gato2.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "17",
-        "title": "Gato (3)",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Gato3.jpg",
-        "minImg": "assets/images/min_Gato3.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "18",
-        "title": "Ipê Amarelo",
-        "desc": "Acrílico sobre cartão",
-        "img": "assets/images/Ipe_amarelo.jpg",
-        "minImg": "assets/images/min_Ipe_amarelo.jpg",
-        "type": "acrilico"
-      },
-      {
-        "id": "19",
-        "title": "Abacateiro",
-        "desc": "Acrílico sobre cartão",
-        "img": "assets/images/Abacateiro.jpg",
-        "minImg": "assets/images/min_Abacateiro.jpg",
-        "type": "acrilico"
-      },
-      {
-        "id": "20",
-        "title": "Figueira",
-        "desc": "Acrílico sobre cartão",
-        "img": "assets/images/Figueira.jpg",
-        "minImg": "assets/images/min_Figueira.jpg",
-        "type": "acrilico"
-      },
-      {
-        "id": "21",
-        "title": "Cedro",
-        "desc": "Acrílico sobre cartão",
-        "img": "assets/images/Cedro.jpg",
-        "minImg": "assets/images/min_Cedro.jpg",
-        "type": "acrilico"
-      },
-      {
-        "id": "22",
-        "title": "Pata de vaca",
-        "desc": "Acrílico sobre cartão",
-        "img": "assets/images/Pata_de_vaca.jpg",
-        "minImg": "assets/images/min_Pata_de_vaca.jpg",
-        "type": "acrilico"
-      },
-      {
-        "id": "23",
-        "title": "Jacarandá",
-        "desc": "Acrílico sobre cartão",
-        "img": "assets/images/Jacaranda.jpg",
-        "minImg": "assets/images/min_Jacaranda.jpg",
-        "type": "acrilico"
-      },
-      {
-        "id": "24",
-        "title": "Palmeira imperial",
-        "desc": "Acrílico sobre cartão",
-        "img": "assets/images/Palmeira.jpg",
-        "minImg": "assets/images/min_Palmeira.jpg",
-        "type": "acrilico"
-      },
-      {
-        "id": "25",
-        "title": "Pau Brasil",
-        "desc": "Acrílico sobre cartão",
-        "img": "assets/images/Pau_Brasil.jpg",
-        "minImg": "assets/images/min_Pau_Brasil.jpg",
-        "type": "acrilico"
-      },
-      {
-        "id": "26",
-        "title": "Por do sol na Barra",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Por_do_sol_barra.jpg",
-        "minImg": "assets/images/min_Por_do_sol_barra.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "27",
-        "title": "Satiro e Ninfa",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Satiro_e_Ninfa.jpg",
-        "minImg": "assets/images/min_Satiro_e_Ninfa.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "28",
-        "title": "Capitães de areia",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Capitaes_de_areia.jpg",
-        "minImg": "assets/images/min_Capitaes_de_areia.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "29",
-        "title": "Forte São Mateus",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Forte_Sao_Mateus.jpg",
-        "minImg": "assets/images/min_Forte_Sao_Mateus.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "30",
-        "title": "Imitação de lajota na parede",
-        "desc": "Decoração",
-        "img": "assets/images/Imitacao_de_lajota_na_parede.jpg",
-        "minImg": "assets/images/min_Imitacao_de_lajota_na_parede.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "31",
-        "title": "Painel decorativo",
-        "desc": "Decoração",
-        "img": "assets/images/painel_decorativo.jpg",
-        "minImg": "assets/images/min_painel_decorativo.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "32",
-        "title": "Pintura imitando madeira",
-        "desc": "Pintura decorativa",
-        "img": "assets/images/Imitacao_madeira.jpg",
-        "minImg": "assets/images/min_Imitacao_madeira.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "33",
-        "title": "Mosaico em vidrotil",
-        "desc": "Decoração",
-        "img": "assets/images/Mosaico_em_vidrotil.jpg",
-        "minImg": "assets/images/min_Mosaico_em_vidrotil.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "34",
-        "title": "Trompe-l'oeil",
-        "desc": "Decoração",
-        "img": "assets/images/trompeoleil.jpg",
-        "minImg": "assets/images/min_trompeoleil.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "35",
-        "title": "Trompe-l'oeil",
-        "desc": "Decoração",
-        "img": "assets/images/trompeoleil2.jpg",
-        "minImg": "assets/images/min_trompeoleil2.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "36",
-        "title": "Trompe-l'oeil (2)",
-        "desc": "Decoração",
-        "img": "assets/images/trompeoleil3.jpg",
-        "minImg": "assets/images/min_trompeoleil3.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "37",
-        "title": "Túnel do tempo",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/tunel_do_tempo.jpg",
-        "minImg": "assets/images/min_tunel_do_tempo.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "38",
-        "title": "Bar decorativo",
-        "desc": "Decoração",
-        "img": "assets/images/bar_decorativo.jpg",
-        "minImg": "assets/images/min_bar_decorativo.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "39",
-        "title": "Biombo decorativo",
-        "desc": "Decoração",
-        "img": "assets/images/biombo_decorativo.jpg",
-        "minImg": "assets/images/min_biombo_decorativo.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "40",
-        "title": "Cangaceiros",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/cangaceiros.jpg",
-        "minImg": "assets/images/min_cangaceiros.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "41",
-        "title": "Golf",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/golf.jpg",
-        "minImg": "assets/images/min_golf.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "42",
-        "title": "Golf (2)",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/golf2.jpg",
-        "minImg": "assets/images/min_golf2.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "43",
-        "title": "Golf (3)",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/golf3.jpg",
-        "minImg": "assets/images/min_golf3.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "44",
-        "title": "Geladeira",
-        "desc": "Aerografia",
-        "img": "assets/images/Geladeira_aerografia.jpg",
-        "minImg": "assets/images/min_Geladeira_aerografia.jpg",
-        "type": "aerografia"
-      },
-      {
-        "id": "45",
-        "title": "Geladeira",
-        "desc": "Aerografia",
-        "img": "assets/images/Geladeira_aerografia2.jpg",
-        "minImg": "assets/images/min_Geladeira_aerografia2.jpg",
-        "type": "aerografia"
-      },
-      {
-        "id": "46",
-        "title": "Geladeira",
-        "desc": "Aerografia",
-        "img": "assets/images/Geladeira_aerografia3.jpg",
-        "minImg": "assets/images/min_Geladeira_aerografia3.jpg",
-        "type": "aerografia"
-      },
-      {
-        "id": "47",
-        "title": "Geladeira (2)",
-        "desc": "Aerografia",
-        "img": "assets/images/Geladeira_aerografia4.jpg",
-        "minImg": "assets/images/min_Geladeira_aerografia4.jpg",
-        "type": "aerografia"
-      },  
-      {
-        "id": "48",
-        "title": "Retrato",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/retrato.jpg",
-        "minImg": "assets/images/min_retrato.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "49",
-        "title": "Prancha",
-        "desc": "Aerografia",
-        "img": "assets/images/prancha.jpg",
-        "minImg": "assets/images/min_prancha.jpg",
-        "type": "aerografia"
-      },
-      {
-        "id": "50",
-        "title": "Prancha em chamas",
-        "desc": "Aerografia",
-        "img": "assets/images/prancha_chamas.jpg",
-        "minImg": "assets/images/min_prancha_chamas.jpg",
-        "type": "aerografia"
-      },
-      {
-        "id": "51",
-        "title": "Freud",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/Freud.jpg",
-        "minImg": "assets/images/min_Freud.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "52",
-        "title": "Lich King",
-        "desc": "Aerografia",
-        "img": "assets/images/lich_king.jpg",
-        "minImg": "assets/images/min_lich_king.jpg",
-        "type": "aerografia"
-      },
-      {
-        "id": "53",
-        "title": "Dragão",
-        "desc": "Aerografia",
-        "img": "assets/images/dragao_aerografia.jpg",
-        "minImg": "assets/images/min_dragao_aerografia.jpg",
-        "type": "aerografia"
-      },
-      {
-        "id": "54",
-        "title": "Marlin",
-        "desc": "Aerografia",
-        "img": "assets/images/marlin.jpg",
-        "minImg": "assets/images/min_marlin.jpg",
-        "type": "aerografia"
-      },
-      {
-        "id": "55",
-        "title": "Pintura automotiva",
-        "desc": "Aerografia",
-        "img": "assets/images/pintura_automotiva.jpg",
-        "minImg": "assets/images/min_pintura_automotiva.jpg",
-        "type": "aerografia"
-      },
-      {
-        "id": "56",
-        "title": "Lua",
-        "desc": "Aerografia em vidro",
-        "img": "assets/images/lua.jpg",
-        "minImg": "assets/images/min_lua.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "57",
-        "title": "Mesa decorativa",
-        "desc": "Aerografia em vidro",
-        "img": "assets/images/espaco_mesa.jpg",
-        "minImg": "assets/images/min_espaco_mesa.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "58",
-        "title": "Auto retrato",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/auto_retrato.jpg",
-        "minImg": "assets/images/min_auto_retrato.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "59",
-        "title": "Retrato (2)",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/retrato2.jpg",
-        "minImg": "assets/images/min_retrato2.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "60",
-        "title": "Windsurf",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/windsurf.jpg",
-        "minImg": "assets/images/min_windsurf.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "61",
-        "title": "Casa de campo",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/casa_de_campo.jpg",
-        "minImg": "assets/images/min_casa_de_campo.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "62",
-        "title": "Carnaval de Veneza",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/carnaval_de_veneza.jpg",
-        "minImg": "assets/images/min_carnaval_de_veneza.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "63",
-        "title": "Manguezal",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/manguezal.jpg",
-        "minImg": "assets/images/min_manguezal.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "64",
-        "title": "Flor",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/flor.jpg",
-        "minImg": "assets/images/min_flor.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "65",
-        "title": "Orixá",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/orixa.jpg",
-        "minImg": "assets/images/min_orixa.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "66",
-        "title": "Iemanja",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/iemanja.jpg",
-        "minImg": "assets/images/min_iemanja.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "67",
-        "title": "Floresta (2)",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/floresta2.jpg",
-        "minImg": "assets/images/min_floresta2.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "68",
-        "title": "Pierro",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/pierro.jpg",
-        "minImg": "assets/images/min_pierro.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "69",
-        "title": "Praia",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/praia.jpg",
-        "minImg": "assets/images/min_praia.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "70",
-        "title": "Paranoia",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/paranoia.jpg",
-        "minImg": "assets/images/min_paranoia.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "71",
-        "title": "Passeio de domingo",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/passeio_de_domingo.jpg",
-        "minImg": "assets/images/min_passeio_de_domingo.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "72",
-        "title": "Homenagem a Monet",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/homenagem_a_monet.jpg",
-        "minImg": "assets/images/min_homenagem_a_monet.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "73",
-        "title": "Auto retrato (2)",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/auto_retrato2.jpg",
-        "minImg": "assets/images/min_auto_retrato2.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "74",
-        "title": "Ritual",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/ritual.jpg",
-        "minImg": "assets/images/min_ritual.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "75",
-        "title": "47 st",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/47st.jpg",
-        "minImg": "assets/images/min_47st.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "76",
-        "title": "Retrato (3)",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/retrato3.jpg",
-        "minImg": "assets/images/min_retrato3.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "77",
-        "title": "Retrato (4)",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/retrato4.jpg",
-        "minImg": "assets/images/min_retrato4.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "78",
-        "title": "Casa espanhola",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/casa_espanhola.jpg",
-        "minImg": "assets/images/min_casa_espanhola.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "79",
-        "title": "Catadores de amendoa",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/catadores_de_amendoa.jpg",
-        "minImg": "assets/images/min_catadores_de_amendoa.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "80",
-        "title": "Dia de folga",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/dia_de_folga.jpg",
-        "minImg": "assets/images/min_dia_de_folga.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "81",
-        "title": "Jazz",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/jazz.jpg",
-        "minImg": "assets/images/min_jazz.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "82",
-        "title": "Natureza morta",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/natureza_morta.jpg",
-        "minImg": "assets/images/min_natureza_morta.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "83",
-        "title": "Pintura na parede",
-        "desc": "",
-        "img": "assets/images/pintura_na_parede.jpg",
-        "minImg": "assets/images/min_pintura_na_parede.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "84",
-        "title": "Rue Saint-Dominique",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/rue_saint_dominique.jpg",
-        "minImg": "assets/images/min_rue_saint_dominique.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "85",
-        "title": "ka-6",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/ka-6.jpg",
-        "minImg": "assets/images/min_ka-6.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "87",
-        "title": "Rua das pedras",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/rua_das_pedras.jpg",
-        "minImg": "assets/images/min_rua_das_pedras.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "88",
-        "title": "Velejo",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/velejo.jpg",
-        "minImg": "assets/images/min_velejo.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "89",
-        "title": "Trompe-l'oeil",
-        "desc": "Decoração",
-        "img": "assets/images/trompeloeil.jpg",
-        "minImg": "assets/images/min_trompeloeil.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "90",
-        "title": "Trompe-l'oeil",
-        "desc": "Decoração",
-        "img": "assets/images/trompeloeil_full.jpg",
-        "minImg": "assets/images/min_trompeloeil_full.jpg",
-        "type": "decoracao"
-      },
-      {
-        "id": "91",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/84a47b.jpg",
-        "minImg": "assets/images/min_84a47b.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "92",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/92.jpg",
-        "minImg": "assets/images/min_92.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "93",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/palhaco.jpg",
-        "minImg": "assets/images/min_palhaco.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "94",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/macaco_circo.jpg",
-        "minImg": "assets/images/min_macaco_circo.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "95",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/95.jpg",
-        "minImg": "assets/images/min_95.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "96",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/danca_no_gelo.jpg",
-        "minImg": "assets/images/min_danca_no_gelo.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "97",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/97.jpg",
-        "minImg": "assets/images/min_97.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "98",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/98.jpg",
-        "minImg": "assets/images/min_98.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "99",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/praia2.jpg",
-        "minImg": "assets/images/min_praia2.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "100",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/100.jpg",
-        "minImg": "assets/images/min_100.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "101",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/101.jpg",
-        "minImg": "assets/images/min_101.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "102",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/102.jpg",
-        "minImg": "assets/images/min_102.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "103",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/103.jpg",
-        "minImg": "assets/images/min_103.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "104",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/104.jpg",
-        "minImg": "assets/images/min_104.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "105",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/105.jpg",
-        "minImg": "assets/images/min_105.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "106",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/106.jpg",
-        "minImg": "assets/images/min_106.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "107",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/2barcos.jpg",
-        "minImg": "assets/images/min_2barcos.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "108",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/anvil_carrack.jpg",
-        "minImg": "assets/images/min_anvil_carrack.jpg",
-        "type": "oleo"
-      },
-      {
-        "id": "109",
-        "title": "",
-        "desc": "Óleo sobre tela",
-        "img": "assets/images/cafe.jpg",
-        "minImg": "assets/images/min_cafe.jpg",
-        "type": "oleo"
-      }
-    ]
-  }
+{
+	"globals": {
+		"jobs": [
+			{
+				"id": "1",
+				"title": "Golfinhos",
+				"desc": "Aerografia sobre tela",
+				"img": {
+					"path": "assets/images/Golfinhos.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1497,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Golfinhos.jpg",
+					"info": {
+						"height": 400,
+						"width": 598,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "2",
+				"title": "Óleo sobre tela",
+				"desc": "",
+				"img": {
+					"path": "assets/images/img.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1333,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_img.jpg",
+					"info": {
+						"height": 450,
+						"width": 600,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "3",
+				"title": "Alto mar",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Alto_mar.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1646,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Alto_mar.jpg",
+					"info": {
+						"height": 425,
+						"width": 700,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "4",
+				"title": "Rochedos",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Rochedos.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1448,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Rochedos.jpg",
+					"info": {
+						"height": 400,
+						"width": 579,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "5",
+				"title": "Pintura decorativa",
+				"desc": "Acrílico na parede",
+				"img": {
+					"path": "assets/images/pintura_decorativa.jpg",
+					"info": {
+						"height": 778,
+						"width": 583,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_pintura_decorativa.jpg",
+					"info": {
+						"height": 778,
+						"width": 583,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "6",
+				"title": "Varanda na fazenda",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Varanda_fazenda.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1121,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Varanda_fazenda.jpg",
+					"info": {
+						"height": 535,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "7",
+				"title": "Floresta",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Floresta.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1333,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Floresta.jpg",
+					"info": {
+						"height": 450,
+						"width": 600,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "8",
+				"title": "Pantera",
+				"desc": "Aerografia",
+				"img": {
+					"path": "assets/images/Pantera.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1105,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Pantera.jpg",
+					"info": {
+						"height": 542,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "9",
+				"title": "Morte do artista",
+				"desc": "Óleo sobre madeira",
+				"img": {
+					"path": "assets/images/Morte_do_artista.jpg",
+					"info": {
+						"height": 1492,
+						"width": 1104,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Morte_do_artista.jpg",
+					"info": {
+						"height": 540,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "10",
+				"title": "Tango",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Tango.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1099,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Tango.jpg",
+					"info": {
+						"height": 545,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "11",
+				"title": "Baile de tango",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Baile_tango.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1453,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Baile_tango.jpg",
+					"info": {
+						"height": 412,
+						"width": 600,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "12",
+				"title": "Baile de tango (2)",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/baile_de_tango2.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1333,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_baile_de_tango2.jpg",
+					"info": {
+						"height": 450,
+						"width": 600,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "13",
+				"title": "Tango argentino",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/tango_argentino.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_tango_argentino.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "14",
+				"title": "Alma do Tango",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/alma_do_tango.jpg",
+					"info": {
+						"height": 1200,
+						"width": 900,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_alma_do_tango.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "15",
+				"title": "Gato",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Gato.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1106,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Gato.jpg",
+					"info": {
+						"height": 542,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "16",
+				"title": "Gato (2)",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Gato2.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Gato2.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "17",
+				"title": "Gato (3)",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Gato3.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1083,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Gato3.jpg",
+					"info": {
+						"height": 554,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "18",
+				"title": "Ipê Amarelo",
+				"desc": "Acrílico sobre cartão",
+				"img": {
+					"path": "assets/images/Ipe_amarelo.jpg",
+					"info": {
+						"height": 1191,
+						"width": 842,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Ipe_amarelo.jpg",
+					"info": {
+						"height": 565,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "acrilico"
+			},
+			{
+				"id": "19",
+				"title": "Abacateiro",
+				"desc": "Acrílico sobre cartão",
+				"img": {
+					"path": "assets/images/Abacateiro.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1060,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Abacateiro.jpg",
+					"info": {
+						"height": 566,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "acrilico"
+			},
+			{
+				"id": "20",
+				"title": "Figueira",
+				"desc": "Acrílico sobre cartão",
+				"img": {
+					"path": "assets/images/Figueira.jpg",
+					"info": {
+						"height": 1430,
+						"width": 1011,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Figueira.jpg",
+					"info": {
+						"height": 565,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "acrilico"
+			},
+			{
+				"id": "21",
+				"title": "Cedro",
+				"desc": "Acrílico sobre cartão",
+				"img": {
+					"path": "assets/images/Cedro.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1060,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Cedro.jpg",
+					"info": {
+						"height": 566,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "acrilico"
+			},
+			{
+				"id": "22",
+				"title": "Pata de vaca",
+				"desc": "Acrílico sobre cartão",
+				"img": {
+					"path": "assets/images/Pata_de_vaca.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1060,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Pata_de_vaca.jpg",
+					"info": {
+						"height": 566,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "acrilico"
+			},
+			{
+				"id": "23",
+				"title": "Jacarandá",
+				"desc": "Acrílico sobre cartão",
+				"img": {
+					"path": "assets/images/Jacaranda.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1060,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Jacaranda.jpg",
+					"info": {
+						"height": 566,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "acrilico"
+			},
+			{
+				"id": "24",
+				"title": "Palmeira imperial",
+				"desc": "Acrílico sobre cartão",
+				"img": {
+					"path": "assets/images/Palmeira.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1060,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Palmeira.jpg",
+					"info": {
+						"height": 566,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "acrilico"
+			},
+			{
+				"id": "25",
+				"title": "Pau Brasil",
+				"desc": "Acrílico sobre cartão",
+				"img": {
+					"path": "assets/images/Pau_Brasil.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1060,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Pau_Brasil.jpg",
+					"info": {
+						"height": 566,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "acrilico"
+			},
+			{
+				"id": "26",
+				"title": "Por do sol na Barra",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Por_do_sol_barra.jpg",
+					"info": {
+						"height": 1477,
+						"width": 1088,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Por_do_sol_barra.jpg",
+					"info": {
+						"height": 543,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "27",
+				"title": "Satiro e Ninfa",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Satiro_e_Ninfa.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Satiro_e_Ninfa.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "28",
+				"title": "Capitães de areia",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Capitaes_de_areia.jpg",
+					"info": {
+						"height": 900,
+						"width": 1200,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Capitaes_de_areia.jpg",
+					"info": {
+						"height": 450,
+						"width": 600,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "29",
+				"title": "Forte São Mateus",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Forte_Sao_Mateus.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Forte_Sao_Mateus.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "30",
+				"title": "Imitação de lajota na parede",
+				"desc": "Decoração",
+				"img": {
+					"path": "assets/images/Imitacao_de_lajota_na_parede.jpg",
+					"info": {
+						"height": 791,
+						"width": 1185,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Imitacao_de_lajota_na_parede.jpg",
+					"info": {
+						"height": 400,
+						"width": 599,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "31",
+				"title": "Painel decorativo",
+				"desc": "Decoração",
+				"img": {
+					"path": "assets/images/painel_decorativo.jpg",
+					"info": {
+						"height": 1165,
+						"width": 1565,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_painel_decorativo.jpg",
+					"info": {
+						"height": 400,
+						"width": 537,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "32",
+				"title": "Pintura imitando madeira",
+				"desc": "Pintura decorativa",
+				"img": {
+					"path": "assets/images/Imitacao_madeira.jpg",
+					"info": {
+						"height": 789,
+						"width": 1172,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Imitacao_madeira.jpg",
+					"info": {
+						"height": 403,
+						"width": 600,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "33",
+				"title": "Mosaico em vidrotil",
+				"desc": "Decoração",
+				"img": {
+					"path": "assets/images/Mosaico_em_vidrotil.jpg",
+					"info": {
+						"height": 776,
+						"width": 1185,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Mosaico_em_vidrotil.jpg",
+					"info": {
+						"height": 400,
+						"width": 610,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "34",
+				"title": "Trompe-l'oeil",
+				"desc": "Decoração",
+				"img": {
+					"path": "assets/images/trompeoleil.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1349,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_trompeoleil.jpg",
+					"info": {
+						"height": 400,
+						"width": 539,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "35",
+				"title": "Trompe-l'oeil",
+				"desc": "Decoração",
+				"img": {
+					"path": "assets/images/trompeoleil2.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1373,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_trompeoleil2.jpg",
+					"info": {
+						"height": 400,
+						"width": 549,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "36",
+				"title": "Trompe-l'oeil (2)",
+				"desc": "Decoração",
+				"img": {
+					"path": "assets/images/trompeoleil3.jpg",
+					"info": {
+						"height": 1188,
+						"width": 789,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_trompeoleil3.jpg",
+					"info": {
+						"height": 602,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "37",
+				"title": "Túnel do tempo",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/tunel_do_tempo.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1589,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_tunel_do_tempo.jpg",
+					"info": {
+						"height": 440,
+						"width": 700,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "38",
+				"title": "Bar decorativo",
+				"desc": "Decoração",
+				"img": {
+					"path": "assets/images/bar_decorativo.jpg",
+					"info": {
+						"height": 1025,
+						"width": 1323,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_bar_decorativo.jpg",
+					"info": {
+						"height": 464,
+						"width": 600,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "39",
+				"title": "Biombo decorativo",
+				"desc": "Decoração",
+				"img": {
+					"path": "assets/images/biombo_decorativo.jpg",
+					"info": {
+						"height": 924,
+						"width": 1602,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_biombo_decorativo.jpg",
+					"info": {
+						"height": 403,
+						"width": 700,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "40",
+				"title": "Cangaceiros",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/cangaceiros.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1333,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_cangaceiros.jpg",
+					"info": {
+						"height": 450,
+						"width": 600,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "41",
+				"title": "Golf",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/golf.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1146,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_golf.jpg",
+					"info": {
+						"height": 523,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "42",
+				"title": "Golf (2)",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/golf2.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1092,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_golf2.jpg",
+					"info": {
+						"height": 549,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "43",
+				"title": "Golf (3)",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/golf3.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1083,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_golf3.jpg",
+					"info": {
+						"height": 554,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "44",
+				"title": "Geladeira",
+				"desc": "Aerografia",
+				"img": {
+					"path": "assets/images/Geladeira_aerografia.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Geladeira_aerografia.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "45",
+				"title": "Geladeira",
+				"desc": "Aerografia",
+				"img": {
+					"path": "assets/images/Geladeira_aerografia2.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Geladeira_aerografia2.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "46",
+				"title": "Geladeira",
+				"desc": "Aerografia",
+				"img": {
+					"path": "assets/images/Geladeira_aerografia3.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Geladeira_aerografia3.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "47",
+				"title": "Geladeira (2)",
+				"desc": "Aerografia",
+				"img": {
+					"path": "assets/images/Geladeira_aerografia4.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Geladeira_aerografia4.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "48",
+				"title": "Retrato",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/retrato.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_retrato.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "49",
+				"title": "Prancha",
+				"desc": "Aerografia",
+				"img": {
+					"path": "assets/images/prancha.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_prancha.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "50",
+				"title": "Prancha em chamas",
+				"desc": "Aerografia",
+				"img": {
+					"path": "assets/images/prancha_chamas.jpg",
+					"info": {
+						"height": 2500,
+						"width": 1034,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_prancha_chamas.jpg",
+					"info": {
+						"height": 967,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "51",
+				"title": "Freud",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/Freud.jpg",
+					"info": {
+						"height": 1200,
+						"width": 900,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_Freud.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "52",
+				"title": "Lich King",
+				"desc": "Aerografia",
+				"img": {
+					"path": "assets/images/lich_king.jpg",
+					"info": {
+						"height": 676,
+						"width": 1005,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_lich_king.jpg",
+					"info": {
+						"height": 400,
+						"width": 594,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "53",
+				"title": "Dragão",
+				"desc": "Aerografia",
+				"img": {
+					"path": "assets/images/dragao_aerografia.jpg",
+					"info": {
+						"height": 712,
+						"width": 1234,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_dragao_aerografia.jpg",
+					"info": {
+						"height": 403,
+						"width": 700,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "54",
+				"title": "Marlin",
+				"desc": "Aerografia",
+				"img": {
+					"path": "assets/images/marlin.jpg",
+					"info": {
+						"height": 767,
+						"width": 1322,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_marlin.jpg",
+					"info": {
+						"height": 400,
+						"width": 689,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "55",
+				"title": "Pintura automotiva",
+				"desc": "Aerografia",
+				"img": {
+					"path": "assets/images/pintura_automotiva.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1333,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_pintura_automotiva.jpg",
+					"info": {
+						"height": 400,
+						"width": 533,
+						"type": "jpg"
+					}
+				},
+				"type": "aerografia"
+			},
+			{
+				"id": "56",
+				"title": "Lua",
+				"desc": "Aerografia em vidro",
+				"img": {
+					"path": "assets/images/lua.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1333,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_lua.jpg",
+					"info": {
+						"height": 450,
+						"width": 600,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "57",
+				"title": "Mesa decorativa",
+				"desc": "Aerografia em vidro",
+				"img": {
+					"path": "assets/images/espaco_mesa.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1333,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_espaco_mesa.jpg",
+					"info": {
+						"height": 450,
+						"width": 600,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "58",
+				"title": "Auto retrato",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/auto_retrato.jpg",
+					"info": {
+						"height": 1200,
+						"width": 900,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_auto_retrato.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "59",
+				"title": "Retrato (2)",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/retrato2.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_retrato2.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "60",
+				"title": "Windsurf",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/windsurf.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1078,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_windsurf.jpg",
+					"info": {
+						"height": 556,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "61",
+				"title": "Casa de campo",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/casa_de_campo.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_casa_de_campo.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "62",
+				"title": "Carnaval de Veneza",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/carnaval_de_veneza.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1284,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_carnaval_de_veneza.jpg",
+					"info": {
+						"height": 467,
+						"width": 600,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "63",
+				"title": "Manguezal",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/manguezal.jpg",
+					"info": {
+						"height": 1300,
+						"width": 1011,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_manguezal.jpg",
+					"info": {
+						"height": 514,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "64",
+				"title": "Flor",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/flor.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_flor.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "65",
+				"title": "Orixá",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/orixa.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_orixa.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "66",
+				"title": "Iemanja",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/iemanja.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_iemanja.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "67",
+				"title": "Floresta (2)",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/floresta2.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_floresta2.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "68",
+				"title": "Pierro",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/pierro.jpg",
+					"info": {
+						"height": 1000,
+						"width": 1061,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_pierro.jpg",
+					"info": {
+						"height": 400,
+						"width": 424,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "69",
+				"title": "Praia",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/praia.jpg",
+					"info": {
+						"height": 1000,
+						"width": 2504,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_praia.jpg",
+					"info": {
+						"height": 400,
+						"width": 1001,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "70",
+				"title": "Paranoia",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/paranoia.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_paranoia.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "71",
+				"title": "Passeio de domingo",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/passeio_de_domingo.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_passeio_de_domingo.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "72",
+				"title": "Homenagem a Monet",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/homenagem_a_monet.jpg",
+					"info": {
+						"height": 1300,
+						"width": 1113,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_homenagem_a_monet.jpg",
+					"info": {
+						"height": 467,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "73",
+				"title": "Auto retrato (2)",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/auto_retrato2.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_auto_retrato2.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "74",
+				"title": "Ritual",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/ritual.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1063,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_ritual.jpg",
+					"info": {
+						"height": 564,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "75",
+				"title": "47 st",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/47st.jpg",
+					"info": {
+						"height": 1240,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_47st.jpg",
+					"info": {
+						"height": 400,
+						"width": 483,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "76",
+				"title": "Retrato (3)",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/retrato3.jpg",
+					"info": {
+						"height": 1375,
+						"width": 984,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_retrato3.jpg",
+					"info": {
+						"height": 558,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "77",
+				"title": "Retrato (4)",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/retrato4.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1125,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_retrato4.jpg",
+					"info": {
+						"height": 533,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "78",
+				"title": "Casa espanhola",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/casa_espanhola.jpg",
+					"info": {
+						"height": 1247,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_casa_espanhola.jpg",
+					"info": {
+						"height": 400,
+						"width": 481,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "79",
+				"title": "Catadores de amendoa",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/catadores_de_amendoa.jpg",
+					"info": {
+						"height": 1488,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_catadores_de_amendoa.jpg",
+					"info": {
+						"height": 400,
+						"width": 403,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "80",
+				"title": "Dia de folga",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/dia_de_folga.jpg",
+					"info": {
+						"height": 1223,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_dia_de_folga.jpg",
+					"info": {
+						"height": 400,
+						"width": 490,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "81",
+				"title": "Jazz",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/jazz.jpg",
+					"info": {
+						"height": 1165,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_jazz.jpg",
+					"info": {
+						"height": 400,
+						"width": 515,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "82",
+				"title": "Natureza morta",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/natureza_morta.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1088,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_natureza_morta.jpg",
+					"info": {
+						"height": 551,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "83",
+				"title": "Pintura na parede",
+				"desc": "",
+				"img": {
+					"path": "assets/images/pintura_na_parede.jpg",
+					"info": {
+						"height": 1125,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_pintura_na_parede.jpg",
+					"info": {
+						"height": 400,
+						"width": 533,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "84",
+				"title": "Rue Saint-Dominique",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/rue_saint_dominique.jpg",
+					"info": {
+						"height": 1500,
+						"width": 994,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_rue_saint_dominique.jpg",
+					"info": {
+						"height": 603,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "85",
+				"title": "ka-6",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/ka-6.jpg",
+					"info": {
+						"height": 1090,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_ka-6.jpg",
+					"info": {
+						"height": 400,
+						"width": 550,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "87",
+				"title": "Rua das pedras",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/rua_das_pedras.jpg",
+					"info": {
+						"height": 1080,
+						"width": 1497,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_rua_das_pedras.jpg",
+					"info": {
+						"height": 400,
+						"width": 554,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "88",
+				"title": "Velejo",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/velejo.jpg",
+					"info": {
+						"height": 1299,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_velejo.jpg",
+					"info": {
+						"height": 433,
+						"width": 500,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "89",
+				"title": "Trompe-l'oeil",
+				"desc": "Decoração",
+				"img": {
+					"path": "assets/images/trompeloeil.jpg",
+					"info": {
+						"height": 981,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_trompeloeil.jpg",
+					"info": {
+						"height": 400,
+						"width": 611,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "90",
+				"title": "Trompe-l'oeil",
+				"desc": "Decoração",
+				"img": {
+					"path": "assets/images/trompeloeil_full.jpg",
+					"info": {
+						"height": 929,
+						"width": 1353,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_trompeloeil_full.jpg",
+					"info": {
+						"height": 400,
+						"width": 582,
+						"type": "jpg"
+					}
+				},
+				"type": "decoracao"
+			},
+			{
+				"id": "91",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/84a47b.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1167,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_84a47b.jpg",
+					"info": {
+						"height": 514,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "92",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/92.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1179,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_92.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1179,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "93",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/palhaco.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1034,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_palhaco.jpg",
+					"info": {
+						"height": 725,
+						"width": 500,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "94",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/macaco_circo.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1033,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_macaco_circo.jpg",
+					"info": {
+						"height": 580,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "95",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/95.jpg",
+					"info": {
+						"height": 1412,
+						"width": 1400,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_95.jpg",
+					"info": {
+						"height": 403,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "96",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/danca_no_gelo.jpg",
+					"info": {
+						"height": 1012,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_danca_no_gelo.jpg",
+					"info": {
+						"height": 400,
+						"width": 592,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "97",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/97.jpg",
+					"info": {
+						"height": 1308,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_97.jpg",
+					"info": {
+						"height": 400,
+						"width": 458,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "98",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/98.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1278,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_98.jpg",
+					"info": {
+						"height": 469,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "99",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/praia2.jpg",
+					"info": {
+						"height": 1035,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_praia2.jpg",
+					"info": {
+						"height": 400,
+						"width": 579,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "100",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/100.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1225,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_100.jpg",
+					"info": {
+						"height": 489,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "101",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/101.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1467,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_101.jpg",
+					"info": {
+						"height": 408,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "102",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/102.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1094,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_102.jpg",
+					"info": {
+						"height": 548,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "103",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/103.jpg",
+					"info": {
+						"height": 1166,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_103.jpg",
+					"info": {
+						"height": 400,
+						"width": 514,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "104",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/104.jpg",
+					"info": {
+						"height": 1500,
+						"width": 1191,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_104.jpg",
+					"info": {
+						"height": 503,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "105",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/105.jpg",
+					"info": {
+						"height": 1074,
+						"width": 1500,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_105.jpg",
+					"info": {
+						"height": 400,
+						"width": 558,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "106",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/106.jpg",
+					"info": {
+						"height": 1500,
+						"width": 901,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_106.jpg",
+					"info": {
+						"height": 665,
+						"width": 400,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "107",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/2barcos.jpg",
+					"info": {
+						"height": 852,
+						"width": 1186,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_2barcos.jpg",
+					"info": {
+						"height": 400,
+						"width": 556,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "108",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/anvil_carrack.jpg",
+					"info": {
+						"height": 815,
+						"width": 1146,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_anvil_carrack.jpg",
+					"info": {
+						"height": 400,
+						"width": 562,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "109",
+				"title": "",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/cafe.jpg",
+					"info": {
+						"height": 847,
+						"width": 1059,
+						"type": "jpg"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/min_cafe.jpg",
+					"info": {
+						"height": 400,
+						"width": 500,
+						"type": "jpg"
+					}
+				},
+				"type": "oleo"
+			}
+		]
+	}
 }
-

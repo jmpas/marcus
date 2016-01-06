@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/watch-cli/bin/watch -p 'src/**/*' -c 'npm run build & ./node_modules/.bin/http-server www'",
-    "build": "rm -rf www && ./node_modules/.bin/harp compile src && mv src/www . && cp -R src/js www && cp -R src/assets www",
+    "start": "npm run updateInfo && ./node_modules/.bin/harp server src",
+    "build": "npm run updateInfo && ./node_modules/.bin/harp compile src dist",
+    "updateInfo": "node updateImageData",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +20,10 @@
   },
   "homepage": "https://github.com/Nipher/marcus#readme",
   "dependencies": {
+    "bjson": "^1.0.0",
     "harp": "^0.20.1",
     "http-server": "^0.8.5",
+    "image-size": "^0.4.0",
     "kouto-swiss": "^0.11.14",
     "watch-cli": "^0.2.1"
   }

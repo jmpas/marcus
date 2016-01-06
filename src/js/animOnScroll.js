@@ -151,26 +151,19 @@
           items = [];
 
       this.items.forEach(function (el, i) {
-        var img, imgDesk, imgMobile;
+        var img, imgSrc;
 
         if (!classie.has(el, 'shown') && !classie.has(el,'animate') && inViewport(el, self.options.viewportFactor)) {
           img = el.querySelector('img');
 
           if (classie.has(img, 'lazy-load')) {
-            imgDesk = img.getAttribute('data-src');
-            imgMobile = img.getAttribute('data-src-mobile');
+            imgSrc = img.getAttribute('data-img-src');
 
-            if (imgMobile && screen.width <= 500) {
-              img.src = imgMobile;
-            } else {
-              img.src = imgDesk;
-            }
+            img.src = imgSrc;
           }
 
           imagesLoaded(el, function () {
             var perspY = scrollY() + getViewportH() / 2;
-            
-            self.msnry.layout();
 
             self.el.style.WebkitPerspectiveOrigin = '50% ' + perspY + 'px';
             self.el.style.MozPerspectiveOrigin = '50% ' + perspY + 'px';

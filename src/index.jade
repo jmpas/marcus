@@ -1,4 +1,4 @@
-extends layouts/default.jade
+extends _layouts/default.jade
 
 block content
   secition.grid-wrap
@@ -8,9 +8,9 @@ block content
         .grid-item
           a
             if i < 8
-              img(src="#{job.minImg}")
+              img(src="#{job.minImg.path}")
             else
-              img.lazy-load(data-src="#{job.img}" data-src-mobile="#{job.minImg}")
+              img.lazy-load(data-img-src="#{job.minImg.path}" data-src="holder.js/" + job.img.info.width + "x" + job.img.info.height + "?&auto=yes")
             .overlay
               h2=job.title
               p=job.desc
