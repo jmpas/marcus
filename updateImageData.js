@@ -20,23 +20,10 @@ fs.readdir('src/assets/images', function (err, images) {
       job = data.globals.jobs[i];
       
       if (job.img === 'assets/images/' + image) {
-        
-        path = job.img;
-
-        job.img = {
-          path: path,
-          info: info
-        };
-
+        job.img.info = info;
       } else if (job.minImg === 'assets/images/' + image) {
-        
         path = job.minImg;
-
-        job.minImg = {
-          path: path,
-          info: info
-        };
-
+        job.minImg.info = info;
       }
 
     }
