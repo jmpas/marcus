@@ -23,9 +23,9 @@ block content
               img(src="#{job.minImg.path}" itemprop="thumbnail" alt="#{job.title}")
             else
               img.lazy-load(data-img-src="#{job.minImg.path}" data-src="holder.js/#{job.img.info.width}x#{job.img.info.height}?&auto=yes" itemprop="thumbnail" alt="#{job.title}")
-            figcaption.overlay(itemprop="caption description")
-              h2=job.title
-              p=job.desc
+          figcaption.overlay(itemprop="caption description")
+            h2=job.title
+            p=job.desc
 
   //- Root element of PhotoSwipe. Must have class pswp.
   .pswp(tabindex="-1" role="dialog" aria-hidden="true")
