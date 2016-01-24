@@ -18,12 +18,12 @@ block content
     #grid.grid.swipe-down.my-gallery(itemscope itemtype="http://schema.org/ImageGallery")
       - each job, i in jobs
         figure.grid-item(itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject")
-          a(href="#{job.minImg.path}" itemprop="contentUrl" data-size="#{job.img.info.width}x#{job.img.info.height}")
+          a(href="#{job.img.path}" itemprop="contentUrl" data-size="#{job.img.info.width}x#{job.img.info.height}")
             if i < 8
               img(src="#{job.minImg.path}" itemprop="thumbnail" alt="#{job.title}")
             else
               img.lazy-load(data-img-src="#{job.minImg.path}" data-src="holder.js/#{job.img.info.width}x#{job.img.info.height}?&auto=yes" itemprop="thumbnail" alt="#{job.title}")
-            figcaption.overlay(itemprop="#{job.desc}")
+            figcaption.overlay(itemprop="caption description")
               h2=job.title
               p=job.desc
 
@@ -52,8 +52,6 @@ block content
 
           button.pswp__button.pswp__button--close(title="Close (Esc)")
 
-          button.pswp__button.pswp__button--share(title="Share")
-
           button.pswp__button.pswp__button--fs(title="Toggle fullscreen")
 
           button.pswp__button.pswp__button--zoom(title="Zoom in/out")
@@ -68,9 +66,9 @@ block content
           .pswp__share-modal.pswp__share-modal--hidden.pswp__single-tap
             .pswp__share-tooltip
 
-          button.pswp__button.pswp__button--arrow--left(title="Previous (arrow left)")
-          
-          button.pswp__button.pswp__button--arrow--right(title="Next (arrow right)")
+        button.pswp__button.pswp__button--arrow--left(title="Previous (arrow left)")
+        
+        button.pswp__button.pswp__button--arrow--right(title="Next (arrow right)")
 
         .pswp__caption
           .pswp__caption__center
