@@ -1,19 +1,6 @@
 extends _layouts/default.jade
 
 block content
-  //- section.grid-wrap
-    #grid.grid.swipe-down
-      .grid-sizer
-      - each job, i in jobs
-        .grid-item
-          a
-            if i < 8
-              img(src="#{job.minImg.path}")
-            else
-              img.lazy-load(data-img-src="#{job.minImg.path}" data-src="holder.js/#{job.img.info.width}x#{job.img.info.height}?&auto=yes")
-            .overlay
-              h2=job.title
-              p=job.desc
   section.grid-wrap
     #grid.grid.swipe-down.my-gallery(itemscope itemtype="http://schema.org/ImageGallery")
       - each job, i in jobs
