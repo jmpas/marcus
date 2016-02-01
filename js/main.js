@@ -5,6 +5,11 @@
 
   function init () {
     var header = document.querySelector('header');
+    var main = document.querySelector('main');
+    var footer = document.querySelector('footer');
+
+    main.classList.remove('hidden');
+    footer.classList.remove('hidden');
     header.classList.add('top');
 
     var animHandler = new AnimOnScroll(grid, {
