@@ -5,11 +5,7 @@
 
   function init () {
     var header = document.querySelector('header');
-    var main = document.querySelector('main');
-    var footer = document.querySelector('footer');
 
-    main.classList.remove('hidden');
-    footer.classList.remove('hidden');
     header.classList.add('top');
 
     var animHandler = new AnimOnScroll(grid, {
@@ -19,11 +15,16 @@
     });
 
     setTimeout(function () {
+      document.body.classList.remove('loading');
       animHandler._onScrollFn();
     }, 2000);
     setTimeout(function () {
       animHandler._onScrollFn();
     }, 2600);
   }
+
+  window.addEventListener('unload', function () {
+    window.scrollTo(0,0);
+  });
 
 })();
