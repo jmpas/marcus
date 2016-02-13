@@ -20,6 +20,9 @@ body
   letter-spacing .1px
   -webkit-font-smoothing antialiased
 
+  &.loading
+    overflow hidden
+    
 main
   background secondary
 
@@ -29,6 +32,3 @@ main
     padding rem(10px) rem(50px)
   +media-query( only screen, min-width 1824px )  
     padding rem(10px) rem(200px)
-
-.hidden
-  display none
