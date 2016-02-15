@@ -15,12 +15,12 @@
     });
 
     setTimeout(function () {
-      document.body.classList.remove('loading');
       animHandler._onScrollFn();
     }, 2000);
     setTimeout(function () {
       animHandler._onScrollFn();
-    }, 2600);
+      document.body.classList.remove('loading');
+    }, 3000);
   }
 
   window.addEventListener('unload', function () {
