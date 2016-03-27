@@ -14,21 +14,18 @@ fs.readdir('src/assets/images', function (err, images) {
 
   images.forEach(function (image) {
     var info = sizeOf('src/assets/images/' + image),
-        i, n, job, path;
+        i, n, job;
     
     for (i = 0, n = data.globals.jobs.length; i < n; i++) {
       job = data.globals.jobs[i];
       
-      if (job.img === 'assets/images/' + image) {
+      if (job.img.path === 'assets/images/' + image) {
         job.img.info = info;
-      } else if (job.minImg === 'assets/images/' + image) {
-        path = job.minImg;
+      } else if (job.minImg.path === 'assets/images/' + image) {
         job.minImg.info = info;
       }
-
     }
   });
 
-  console.info("Images data updated!");
-
+  console.info('Images data updated!');
 });

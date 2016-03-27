@@ -2376,6 +2376,138 @@
 					}
 				},
 				"type": "oleo"
+			},
+			{
+				"id": "110",
+				"title": "Pintura abstrata",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/abstract1.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/abstract1.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "111",
+				"title": "Pintura abstrata",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/abstract2.png",
+					"info": {
+						"width": 874,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/abstract2.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "112",
+				"title": "Pintura abstrata",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/abstract3.png",
+					"info": {
+						"width": 842,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/abstract3.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "113",
+				"title": "Pintura abstrata",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/abstract4.png",
+					"info": {
+						"width": 877,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/abstract4.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "114",
+				"title": "Pintura abstrata",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/abstract5.png",
+					"info": {
+						"width": 866,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/abstract5.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "115",
+				"title": "Pintura abstrata",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/abstract6.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/abstract6.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"type": "oleo"
 			}
 		]
 	}
