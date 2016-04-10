@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run updateInfo && ./node_modules/.bin/harp server src",
-    "build": "npm run updateInfo && ./node_modules/.bin/harp compile src dist",
+    "build": "npm run generateMinImgs && npm run updateInfo && ./node_modules/.bin/harp compile src dist",
+    "generateMinImgs": "node generateMinImages",
     "updateInfo": "node updateImageData",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,12 +20,12 @@
     "url": "https://github.com/Nipher/marcus/issues"
   },
   "homepage": "https://github.com/Nipher/marcus#readme",
-  "dependencies": {
+  "devDependencies": {
     "bjson": "^1.0.0",
     "harp": "^0.20.1",
     "http-server": "^0.8.5",
-    "image-size": "^0.4.0",
     "kouto-swiss": "^0.11.14",
-    "watch-cli": "^0.2.1"
+    "watch-cli": "^0.2.1",
+    "easyimage": "^2.1.0"
   }
 }

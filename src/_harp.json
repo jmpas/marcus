@@ -8,17 +8,33 @@
 				"img": {
 					"path": "assets/images/Golfinhos.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1497,
-						"type": "jpg"
+						"height": 1000,
+						"size": 132632,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Golfinhos.jpg",
+						"path": "src/assets/images/Golfinhos.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Golfinhos.jpg",
+					"path": "assets/images/Golfinhos.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 598,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 674,
+						"height": 450,
+						"size": 35431,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Golfinhos.min.jpg",
+						"path": "src/assets/images/Golfinhos.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -30,17 +46,33 @@
 				"img": {
 					"path": "assets/images/img.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1333,
-						"type": "jpg"
+						"height": 1000,
+						"size": 387815,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "img.jpg",
+						"path": "src/assets/images/img.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_img.jpg",
+					"path": "assets/images/img.min.jpg",
 					"info": {
-						"height": 450,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 600,
-						"type": "jpg"
+						"height": 450,
+						"size": 82777,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "img.min.jpg",
+						"path": "src/assets/images/img.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -52,17 +84,33 @@
 				"img": {
 					"path": "assets/images/Alto_mar.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1646,
-						"type": "jpg"
+						"height": 1000,
+						"size": 501989,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Alto_mar.jpg",
+						"path": "src/assets/images/Alto_mar.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Alto_mar.jpg",
+					"path": "assets/images/Alto_mar.min.jpg",
 					"info": {
-						"height": 425,
-						"width": 700,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 741,
+						"height": 450,
+						"size": 110353,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Alto_mar.min.jpg",
+						"path": "src/assets/images/Alto_mar.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -74,17 +122,33 @@
 				"img": {
 					"path": "assets/images/Rochedos.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1448,
-						"type": "jpg"
+						"height": 1000,
+						"size": 304323,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Rochedos.jpg",
+						"path": "src/assets/images/Rochedos.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Rochedos.jpg",
+					"path": "assets/images/Rochedos.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 579,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 652,
+						"height": 450,
+						"size": 56800,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Rochedos.min.jpg",
+						"path": "src/assets/images/Rochedos.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -96,17 +160,33 @@
 				"img": {
 					"path": "assets/images/pintura_decorativa.jpg",
 					"info": {
-						"height": 778,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 583,
-						"type": "jpg"
+						"height": 778,
+						"size": 174463,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "pintura_decorativa.jpg",
+						"path": "src/assets/images/pintura_decorativa.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_pintura_decorativa.jpg",
+					"path": "assets/images/pintura_decorativa.min.jpg",
 					"info": {
-						"height": 778,
-						"width": 583,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 601,
+						"size": 115165,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "pintura_decorativa.min.jpg",
+						"path": "src/assets/images/pintura_decorativa.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -118,17 +198,33 @@
 				"img": {
 					"path": "assets/images/Varanda_fazenda.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1121,
-						"type": "jpg"
+						"height": 1500,
+						"size": 515026,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Varanda_fazenda.jpg",
+						"path": "src/assets/images/Varanda_fazenda.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Varanda_fazenda.jpg",
+					"path": "assets/images/Varanda_fazenda.min.jpg",
 					"info": {
-						"height": 535,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 602,
+						"size": 96755,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Varanda_fazenda.min.jpg",
+						"path": "src/assets/images/Varanda_fazenda.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -140,17 +236,33 @@
 				"img": {
 					"path": "assets/images/Floresta.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1333,
-						"type": "jpg"
+						"height": 1000,
+						"size": 461174,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Floresta.jpg",
+						"path": "src/assets/images/Floresta.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Floresta.jpg",
+					"path": "assets/images/Floresta.min.jpg",
 					"info": {
-						"height": 450,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 600,
-						"type": "jpg"
+						"height": 450,
+						"size": 107324,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Floresta.min.jpg",
+						"path": "src/assets/images/Floresta.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -162,17 +274,33 @@
 				"img": {
 					"path": "assets/images/Pantera.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1105,
-						"type": "jpg"
+						"height": 1500,
+						"size": 185763,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Pantera.jpg",
+						"path": "src/assets/images/Pantera.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Pantera.jpg",
+					"path": "assets/images/Pantera.min.jpg",
 					"info": {
-						"height": 542,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 611,
+						"size": 40414,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Pantera.min.jpg",
+						"path": "src/assets/images/Pantera.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -184,17 +312,33 @@
 				"img": {
 					"path": "assets/images/Morte_do_artista.jpg",
 					"info": {
-						"height": 1492,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1104,
-						"type": "jpg"
+						"height": 1492,
+						"size": 201393,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Morte_do_artista.jpg",
+						"path": "src/assets/images/Morte_do_artista.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Morte_do_artista.jpg",
+					"path": "assets/images/Morte_do_artista.min.jpg",
 					"info": {
-						"height": 540,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 608,
+						"size": 43619,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Morte_do_artista.min.jpg",
+						"path": "src/assets/images/Morte_do_artista.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -206,17 +350,33 @@
 				"img": {
 					"path": "assets/images/Tango.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1099,
-						"type": "jpg"
+						"height": 1500,
+						"size": 439449,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Tango.jpg",
+						"path": "src/assets/images/Tango.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Tango.jpg",
+					"path": "assets/images/Tango.min.jpg",
 					"info": {
-						"height": 545,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 614,
+						"size": 83798,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Tango.min.jpg",
+						"path": "src/assets/images/Tango.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -228,17 +388,33 @@
 				"img": {
 					"path": "assets/images/Baile_tango.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1453,
-						"type": "jpg"
+						"height": 1000,
+						"size": 420687,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Baile_tango.jpg",
+						"path": "src/assets/images/Baile_tango.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Baile_tango.jpg",
+					"path": "assets/images/Baile_tango.min.jpg",
 					"info": {
-						"height": 412,
-						"width": 600,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 654,
+						"height": 450,
+						"size": 102933,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Baile_tango.min.jpg",
+						"path": "src/assets/images/Baile_tango.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -250,17 +426,33 @@
 				"img": {
 					"path": "assets/images/baile_de_tango2.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1333,
-						"type": "jpg"
+						"height": 1000,
+						"size": 431009,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "baile_de_tango2.jpg",
+						"path": "src/assets/images/baile_de_tango2.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_baile_de_tango2.jpg",
+					"path": "assets/images/baile_de_tango2.min.jpg",
 					"info": {
-						"height": 450,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 600,
-						"type": "jpg"
+						"height": 450,
+						"size": 101562,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "baile_de_tango2.min.jpg",
+						"path": "src/assets/images/baile_de_tango2.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -272,17 +464,33 @@
 				"img": {
 					"path": "assets/images/tango_argentino.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 1341803,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "tango_argentino.jpg",
+						"path": "src/assets/images/tango_argentino.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_tango_argentino.jpg",
+					"path": "assets/images/tango_argentino.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 317807,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "tango_argentino.min.jpg",
+						"path": "src/assets/images/tango_argentino.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -294,17 +502,33 @@
 				"img": {
 					"path": "assets/images/alma_do_tango.jpg",
 					"info": {
-						"height": 1200,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 900,
-						"type": "jpg"
+						"height": 1200,
+						"size": 197962,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "alma_do_tango.jpg",
+						"path": "src/assets/images/alma_do_tango.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_alma_do_tango.jpg",
+					"path": "assets/images/alma_do_tango.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 56076,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "alma_do_tango.min.jpg",
+						"path": "src/assets/images/alma_do_tango.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -316,17 +540,33 @@
 				"img": {
 					"path": "assets/images/Gato.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1106,
-						"type": "jpg"
+						"height": 1500,
+						"size": 266933,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Gato.jpg",
+						"path": "src/assets/images/Gato.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Gato.jpg",
+					"path": "assets/images/Gato.min.jpg",
 					"info": {
-						"height": 542,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 610,
+						"size": 58105,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Gato.min.jpg",
+						"path": "src/assets/images/Gato.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -338,17 +578,33 @@
 				"img": {
 					"path": "assets/images/Gato2.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 377738,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Gato2.jpg",
+						"path": "src/assets/images/Gato2.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Gato2.jpg",
+					"path": "assets/images/Gato2.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 70322,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Gato2.min.jpg",
+						"path": "src/assets/images/Gato2.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -360,17 +616,33 @@
 				"img": {
 					"path": "assets/images/Gato3.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1083,
-						"type": "jpg"
+						"height": 1500,
+						"size": 332782,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Gato3.jpg",
+						"path": "src/assets/images/Gato3.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Gato3.jpg",
+					"path": "assets/images/Gato3.min.jpg",
 					"info": {
-						"height": 554,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 623,
+						"size": 66676,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Gato3.min.jpg",
+						"path": "src/assets/images/Gato3.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -382,17 +654,33 @@
 				"img": {
 					"path": "assets/images/Ipe_amarelo.jpg",
 					"info": {
-						"height": 1191,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 842,
-						"type": "jpg"
+						"height": 1191,
+						"size": 369541,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Ipe_amarelo.jpg",
+						"path": "src/assets/images/Ipe_amarelo.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Ipe_amarelo.jpg",
+					"path": "assets/images/Ipe_amarelo.min.jpg",
 					"info": {
-						"height": 565,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 637,
+						"size": 126599,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Ipe_amarelo.min.jpg",
+						"path": "src/assets/images/Ipe_amarelo.min.jpg"
 					}
 				},
 				"type": "acrilico"
@@ -404,17 +692,33 @@
 				"img": {
 					"path": "assets/images/Abacateiro.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1060,
-						"type": "jpg"
+						"height": 1500,
+						"size": 387992,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Abacateiro.jpg",
+						"path": "src/assets/images/Abacateiro.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Abacateiro.jpg",
+					"path": "assets/images/Abacateiro.min.jpg",
 					"info": {
-						"height": 566,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 637,
+						"size": 87465,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Abacateiro.min.jpg",
+						"path": "src/assets/images/Abacateiro.min.jpg"
 					}
 				},
 				"type": "acrilico"
@@ -426,17 +730,33 @@
 				"img": {
 					"path": "assets/images/Figueira.jpg",
 					"info": {
-						"height": 1430,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1011,
-						"type": "jpg"
+						"height": 1430,
+						"size": 398294,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Figueira.jpg",
+						"path": "src/assets/images/Figueira.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Figueira.jpg",
+					"path": "assets/images/Figueira.min.jpg",
 					"info": {
-						"height": 565,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 636,
+						"size": 95526,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Figueira.min.jpg",
+						"path": "src/assets/images/Figueira.min.jpg"
 					}
 				},
 				"type": "acrilico"
@@ -448,17 +768,33 @@
 				"img": {
 					"path": "assets/images/Cedro.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1060,
-						"type": "jpg"
+						"height": 1500,
+						"size": 325699,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Cedro.jpg",
+						"path": "src/assets/images/Cedro.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Cedro.jpg",
+					"path": "assets/images/Cedro.min.jpg",
 					"info": {
-						"height": 566,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 637,
+						"size": 74801,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Cedro.min.jpg",
+						"path": "src/assets/images/Cedro.min.jpg"
 					}
 				},
 				"type": "acrilico"
@@ -470,17 +806,33 @@
 				"img": {
 					"path": "assets/images/Pata_de_vaca.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1060,
-						"type": "jpg"
+						"height": 1500,
+						"size": 509757,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Pata_de_vaca.jpg",
+						"path": "src/assets/images/Pata_de_vaca.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Pata_de_vaca.jpg",
+					"path": "assets/images/Pata_de_vaca.min.jpg",
 					"info": {
-						"height": 566,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 637,
+						"size": 118971,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Pata_de_vaca.min.jpg",
+						"path": "src/assets/images/Pata_de_vaca.min.jpg"
 					}
 				},
 				"type": "acrilico"
@@ -492,17 +844,33 @@
 				"img": {
 					"path": "assets/images/Jacaranda.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1060,
-						"type": "jpg"
+						"height": 1500,
+						"size": 431276,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Jacaranda.jpg",
+						"path": "src/assets/images/Jacaranda.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Jacaranda.jpg",
+					"path": "assets/images/Jacaranda.min.jpg",
 					"info": {
-						"height": 566,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 637,
+						"size": 101323,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Jacaranda.min.jpg",
+						"path": "src/assets/images/Jacaranda.min.jpg"
 					}
 				},
 				"type": "acrilico"
@@ -514,17 +882,33 @@
 				"img": {
 					"path": "assets/images/Palmeira.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1060,
-						"type": "jpg"
+						"height": 1500,
+						"size": 72129,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Palmeira.jpg",
+						"path": "src/assets/images/Palmeira.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Palmeira.jpg",
+					"path": "assets/images/Palmeira.min.jpg",
 					"info": {
-						"height": 566,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 637,
+						"size": 17653,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Palmeira.min.jpg",
+						"path": "src/assets/images/Palmeira.min.jpg"
 					}
 				},
 				"type": "acrilico"
@@ -536,17 +920,33 @@
 				"img": {
 					"path": "assets/images/Pau_Brasil.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1060,
-						"type": "jpg"
+						"height": 1500,
+						"size": 518156,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Pau_Brasil.jpg",
+						"path": "src/assets/images/Pau_Brasil.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Pau_Brasil.jpg",
+					"path": "assets/images/Pau_Brasil.min.jpg",
 					"info": {
-						"height": 566,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 637,
+						"size": 118921,
+						"density": {
+							"x": 600,
+							"y": 600
+						},
+						"name": "Pau_Brasil.min.jpg",
+						"path": "src/assets/images/Pau_Brasil.min.jpg"
 					}
 				},
 				"type": "acrilico"
@@ -558,17 +958,33 @@
 				"img": {
 					"path": "assets/images/Por_do_sol_barra.jpg",
 					"info": {
-						"height": 1477,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1088,
-						"type": "jpg"
+						"height": 1477,
+						"size": 276332,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Por_do_sol_barra.jpg",
+						"path": "src/assets/images/Por_do_sol_barra.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Por_do_sol_barra.jpg",
+					"path": "assets/images/Por_do_sol_barra.min.jpg",
 					"info": {
-						"height": 543,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 611,
+						"size": 50826,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Por_do_sol_barra.min.jpg",
+						"path": "src/assets/images/Por_do_sol_barra.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -580,17 +996,33 @@
 				"img": {
 					"path": "assets/images/Satiro_e_Ninfa.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 249231,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Satiro_e_Ninfa.jpg",
+						"path": "src/assets/images/Satiro_e_Ninfa.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Satiro_e_Ninfa.jpg",
+					"path": "assets/images/Satiro_e_Ninfa.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 58989,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Satiro_e_Ninfa.min.jpg",
+						"path": "src/assets/images/Satiro_e_Ninfa.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -602,17 +1034,33 @@
 				"img": {
 					"path": "assets/images/Capitaes_de_areia.jpg",
 					"info": {
-						"height": 900,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1200,
-						"type": "jpg"
+						"height": 900,
+						"size": 182126,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Capitaes_de_areia.jpg",
+						"path": "src/assets/images/Capitaes_de_areia.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Capitaes_de_areia.jpg",
+					"path": "assets/images/Capitaes_de_areia.min.jpg",
 					"info": {
-						"height": 450,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 600,
-						"type": "jpg"
+						"height": 450,
+						"size": 58836,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Capitaes_de_areia.min.jpg",
+						"path": "src/assets/images/Capitaes_de_areia.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -624,17 +1072,33 @@
 				"img": {
 					"path": "assets/images/Forte_Sao_Mateus.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 189001,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Forte_Sao_Mateus.jpg",
+						"path": "src/assets/images/Forte_Sao_Mateus.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Forte_Sao_Mateus.jpg",
+					"path": "assets/images/Forte_Sao_Mateus.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 33504,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Forte_Sao_Mateus.min.jpg",
+						"path": "src/assets/images/Forte_Sao_Mateus.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -646,17 +1110,33 @@
 				"img": {
 					"path": "assets/images/Imitacao_de_lajota_na_parede.jpg",
 					"info": {
-						"height": 791,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1185,
-						"type": "jpg"
+						"height": 791,
+						"size": 73328,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "Imitacao_de_lajota_na_parede.jpg",
+						"path": "src/assets/images/Imitacao_de_lajota_na_parede.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Imitacao_de_lajota_na_parede.jpg",
+					"path": "assets/images/Imitacao_de_lajota_na_parede.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 599,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 674,
+						"height": 450,
+						"size": 27454,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "Imitacao_de_lajota_na_parede.min.jpg",
+						"path": "src/assets/images/Imitacao_de_lajota_na_parede.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -668,17 +1148,33 @@
 				"img": {
 					"path": "assets/images/painel_decorativo.jpg",
 					"info": {
-						"height": 1165,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1565,
-						"type": "jpg"
+						"height": 1165,
+						"size": 205731,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "painel_decorativo.jpg",
+						"path": "src/assets/images/painel_decorativo.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_painel_decorativo.jpg",
+					"path": "assets/images/painel_decorativo.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 537,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 605,
+						"height": 450,
+						"size": 44558,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "painel_decorativo.min.jpg",
+						"path": "src/assets/images/painel_decorativo.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -690,17 +1186,33 @@
 				"img": {
 					"path": "assets/images/Imitacao_madeira.jpg",
 					"info": {
-						"height": 789,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1172,
-						"type": "jpg"
+						"height": 789,
+						"size": 155896,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "Imitacao_madeira.jpg",
+						"path": "src/assets/images/Imitacao_madeira.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Imitacao_madeira.jpg",
+					"path": "assets/images/Imitacao_madeira.min.jpg",
 					"info": {
-						"height": 403,
-						"width": 600,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 668,
+						"height": 450,
+						"size": 54291,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "Imitacao_madeira.min.jpg",
+						"path": "src/assets/images/Imitacao_madeira.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -712,17 +1224,33 @@
 				"img": {
 					"path": "assets/images/Mosaico_em_vidrotil.jpg",
 					"info": {
-						"height": 776,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1185,
-						"type": "jpg"
+						"height": 776,
+						"size": 204871,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "Mosaico_em_vidrotil.jpg",
+						"path": "src/assets/images/Mosaico_em_vidrotil.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Mosaico_em_vidrotil.jpg",
+					"path": "assets/images/Mosaico_em_vidrotil.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 610,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 687,
+						"height": 450,
+						"size": 78173,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "Mosaico_em_vidrotil.min.jpg",
+						"path": "src/assets/images/Mosaico_em_vidrotil.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -734,17 +1262,33 @@
 				"img": {
 					"path": "assets/images/trompeoleil.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1349,
-						"type": "jpg"
+						"height": 1000,
+						"size": 326348,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "trompeoleil.jpg",
+						"path": "src/assets/images/trompeoleil.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_trompeoleil.jpg",
+					"path": "assets/images/trompeoleil.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 539,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 607,
+						"height": 450,
+						"size": 81740,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "trompeoleil.min.jpg",
+						"path": "src/assets/images/trompeoleil.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -756,17 +1300,33 @@
 				"img": {
 					"path": "assets/images/trompeoleil2.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1373,
-						"type": "jpg"
+						"height": 1000,
+						"size": 357804,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "trompeoleil2.jpg",
+						"path": "src/assets/images/trompeoleil2.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_trompeoleil2.jpg",
+					"path": "assets/images/trompeoleil2.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 549,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 618,
+						"height": 450,
+						"size": 83295,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "trompeoleil2.min.jpg",
+						"path": "src/assets/images/trompeoleil2.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -778,17 +1338,33 @@
 				"img": {
 					"path": "assets/images/trompeoleil3.jpg",
 					"info": {
-						"height": 1188,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 789,
-						"type": "jpg"
+						"height": 1188,
+						"size": 123549,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "trompeoleil3.jpg",
+						"path": "src/assets/images/trompeoleil3.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_trompeoleil3.jpg",
+					"path": "assets/images/trompeoleil3.min.jpg",
 					"info": {
-						"height": 602,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 678,
+						"size": 46130,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "trompeoleil3.min.jpg",
+						"path": "src/assets/images/trompeoleil3.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -800,17 +1376,33 @@
 				"img": {
 					"path": "assets/images/tunel_do_tempo.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1589,
-						"type": "jpg"
+						"height": 1000,
+						"size": 347300,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "tunel_do_tempo.jpg",
+						"path": "src/assets/images/tunel_do_tempo.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_tunel_do_tempo.jpg",
+					"path": "assets/images/tunel_do_tempo.min.jpg",
 					"info": {
-						"height": 440,
-						"width": 700,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 715,
+						"height": 450,
+						"size": 85569,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "tunel_do_tempo.min.jpg",
+						"path": "src/assets/images/tunel_do_tempo.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -822,17 +1414,33 @@
 				"img": {
 					"path": "assets/images/bar_decorativo.jpg",
 					"info": {
-						"height": 1025,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1323,
-						"type": "jpg"
+						"height": 1025,
+						"size": 143634,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "bar_decorativo.jpg",
+						"path": "src/assets/images/bar_decorativo.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_bar_decorativo.jpg",
+					"path": "assets/images/bar_decorativo.min.jpg",
 					"info": {
-						"height": 464,
-						"width": 600,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 581,
+						"height": 450,
+						"size": 35883,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "bar_decorativo.min.jpg",
+						"path": "src/assets/images/bar_decorativo.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -844,17 +1452,33 @@
 				"img": {
 					"path": "assets/images/biombo_decorativo.jpg",
 					"info": {
-						"height": 924,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1602,
-						"type": "jpg"
+						"height": 924,
+						"size": 288468,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "biombo_decorativo.jpg",
+						"path": "src/assets/images/biombo_decorativo.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_biombo_decorativo.jpg",
+					"path": "assets/images/biombo_decorativo.min.jpg",
 					"info": {
-						"height": 403,
-						"width": 700,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 780,
+						"height": 450,
+						"size": 82620,
+						"density": {
+							"x": 200,
+							"y": 200
+						},
+						"name": "biombo_decorativo.min.jpg",
+						"path": "src/assets/images/biombo_decorativo.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -866,17 +1490,33 @@
 				"img": {
 					"path": "assets/images/cangaceiros.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1333,
-						"type": "jpg"
+						"height": 1000,
+						"size": 389195,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "cangaceiros.jpg",
+						"path": "src/assets/images/cangaceiros.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_cangaceiros.jpg",
+					"path": "assets/images/cangaceiros.min.jpg",
 					"info": {
-						"height": 450,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 600,
-						"type": "jpg"
+						"height": 450,
+						"size": 85375,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "cangaceiros.min.jpg",
+						"path": "src/assets/images/cangaceiros.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -888,17 +1528,33 @@
 				"img": {
 					"path": "assets/images/golf.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1146,
-						"type": "jpg"
+						"height": 1500,
+						"size": 425589,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "golf.jpg",
+						"path": "src/assets/images/golf.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_golf.jpg",
+					"path": "assets/images/golf.min.jpg",
 					"info": {
-						"height": 523,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 589,
+						"size": 63018,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "golf.min.jpg",
+						"path": "src/assets/images/golf.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -910,17 +1566,33 @@
 				"img": {
 					"path": "assets/images/golf2.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1092,
-						"type": "jpg"
+						"height": 1500,
+						"size": 131501,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "golf2.jpg",
+						"path": "src/assets/images/golf2.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_golf2.jpg",
+					"path": "assets/images/golf2.min.jpg",
 					"info": {
-						"height": 549,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 618,
+						"size": 33105,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "golf2.min.jpg",
+						"path": "src/assets/images/golf2.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -932,17 +1604,33 @@
 				"img": {
 					"path": "assets/images/golf3.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1083,
-						"type": "jpg"
+						"height": 1500,
+						"size": 323132,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "golf3.jpg",
+						"path": "src/assets/images/golf3.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_golf3.jpg",
+					"path": "assets/images/golf3.min.jpg",
 					"info": {
-						"height": 554,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 623,
+						"size": 56308,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "golf3.min.jpg",
+						"path": "src/assets/images/golf3.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -954,17 +1642,33 @@
 				"img": {
 					"path": "assets/images/Geladeira_aerografia.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 467994,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Geladeira_aerografia.jpg",
+						"path": "src/assets/images/Geladeira_aerografia.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Geladeira_aerografia.jpg",
+					"path": "assets/images/Geladeira_aerografia.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 88558,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Geladeira_aerografia.min.jpg",
+						"path": "src/assets/images/Geladeira_aerografia.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -976,17 +1680,33 @@
 				"img": {
 					"path": "assets/images/Geladeira_aerografia2.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 452317,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Geladeira_aerografia2.jpg",
+						"path": "src/assets/images/Geladeira_aerografia2.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Geladeira_aerografia2.jpg",
+					"path": "assets/images/Geladeira_aerografia2.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 84536,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Geladeira_aerografia2.min.jpg",
+						"path": "src/assets/images/Geladeira_aerografia2.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -998,17 +1718,33 @@
 				"img": {
 					"path": "assets/images/Geladeira_aerografia3.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 557186,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Geladeira_aerografia3.jpg",
+						"path": "src/assets/images/Geladeira_aerografia3.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Geladeira_aerografia3.jpg",
+					"path": "assets/images/Geladeira_aerografia3.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 107670,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Geladeira_aerografia3.min.jpg",
+						"path": "src/assets/images/Geladeira_aerografia3.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -1020,17 +1756,33 @@
 				"img": {
 					"path": "assets/images/Geladeira_aerografia4.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 142076,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "Geladeira_aerografia4.jpg",
+						"path": "src/assets/images/Geladeira_aerografia4.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Geladeira_aerografia4.jpg",
+					"path": "assets/images/Geladeira_aerografia4.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 31400,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "Geladeira_aerografia4.min.jpg",
+						"path": "src/assets/images/Geladeira_aerografia4.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -1042,17 +1794,33 @@
 				"img": {
 					"path": "assets/images/retrato.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 292198,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "retrato.jpg",
+						"path": "src/assets/images/retrato.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_retrato.jpg",
+					"path": "assets/images/retrato.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 49419,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "retrato.min.jpg",
+						"path": "src/assets/images/retrato.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1064,17 +1832,33 @@
 				"img": {
 					"path": "assets/images/prancha.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 600976,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "prancha.jpg",
+						"path": "src/assets/images/prancha.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_prancha.jpg",
+					"path": "assets/images/prancha.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 123631,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "prancha.min.jpg",
+						"path": "src/assets/images/prancha.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -1086,17 +1870,33 @@
 				"img": {
 					"path": "assets/images/prancha_chamas.jpg",
 					"info": {
-						"height": 2500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1034,
-						"type": "jpg"
+						"height": 2500,
+						"size": 828049,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "prancha_chamas.jpg",
+						"path": "src/assets/images/prancha_chamas.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_prancha_chamas.jpg",
+					"path": "assets/images/prancha_chamas.min.jpg",
 					"info": {
-						"height": 967,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 1088,
+						"size": 181412,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "prancha_chamas.min.jpg",
+						"path": "src/assets/images/prancha_chamas.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -1108,17 +1908,33 @@
 				"img": {
 					"path": "assets/images/Freud.jpg",
 					"info": {
-						"height": 1200,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 900,
-						"type": "jpg"
+						"height": 1200,
+						"size": 260593,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Freud.jpg",
+						"path": "src/assets/images/Freud.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_Freud.jpg",
+					"path": "assets/images/Freud.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 65602,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "Freud.min.jpg",
+						"path": "src/assets/images/Freud.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1130,17 +1946,33 @@
 				"img": {
 					"path": "assets/images/lich_king.jpg",
 					"info": {
-						"height": 676,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1005,
-						"type": "jpg"
+						"height": 676,
+						"size": 217912,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "lich_king.jpg",
+						"path": "src/assets/images/lich_king.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_lich_king.jpg",
+					"path": "assets/images/lich_king.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 594,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 669,
+						"height": 450,
+						"size": 95423,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "lich_king.min.jpg",
+						"path": "src/assets/images/lich_king.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -1152,17 +1984,33 @@
 				"img": {
 					"path": "assets/images/dragao_aerografia.jpg",
 					"info": {
-						"height": 712,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1234,
-						"type": "jpg"
+						"height": 712,
+						"size": 190153,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "dragao_aerografia.jpg",
+						"path": "src/assets/images/dragao_aerografia.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_dragao_aerografia.jpg",
+					"path": "assets/images/dragao_aerografia.min.jpg",
 					"info": {
-						"height": 403,
-						"width": 700,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 780,
+						"height": 450,
+						"size": 79513,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "dragao_aerografia.min.jpg",
+						"path": "src/assets/images/dragao_aerografia.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -1174,17 +2022,33 @@
 				"img": {
 					"path": "assets/images/marlin.jpg",
 					"info": {
-						"height": 767,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1322,
-						"type": "jpg"
+						"height": 767,
+						"size": 191712,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "marlin.jpg",
+						"path": "src/assets/images/marlin.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_marlin.jpg",
+					"path": "assets/images/marlin.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 689,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 776,
+						"height": 450,
+						"size": 60890,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "marlin.min.jpg",
+						"path": "src/assets/images/marlin.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -1196,17 +2060,33 @@
 				"img": {
 					"path": "assets/images/pintura_automotiva.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1333,
-						"type": "jpg"
+						"height": 1000,
+						"size": 510389,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "pintura_automotiva.jpg",
+						"path": "src/assets/images/pintura_automotiva.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_pintura_automotiva.jpg",
+					"path": "assets/images/pintura_automotiva.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 533,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 600,
+						"height": 450,
+						"size": 117872,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "pintura_automotiva.min.jpg",
+						"path": "src/assets/images/pintura_automotiva.min.jpg"
 					}
 				},
 				"type": "aerografia"
@@ -1218,17 +2098,33 @@
 				"img": {
 					"path": "assets/images/lua.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1333,
-						"type": "jpg"
+						"height": 1000,
+						"size": 74517,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "lua.jpg",
+						"path": "src/assets/images/lua.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_lua.jpg",
+					"path": "assets/images/lua.min.jpg",
 					"info": {
-						"height": 450,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 600,
-						"type": "jpg"
+						"height": 450,
+						"size": 24058,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "lua.min.jpg",
+						"path": "src/assets/images/lua.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -1240,17 +2136,33 @@
 				"img": {
 					"path": "assets/images/espaco_mesa.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1333,
-						"type": "jpg"
+						"height": 1000,
+						"size": 358447,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "espaco_mesa.jpg",
+						"path": "src/assets/images/espaco_mesa.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_espaco_mesa.jpg",
+					"path": "assets/images/espaco_mesa.min.jpg",
 					"info": {
-						"height": 450,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 600,
-						"type": "jpg"
+						"height": 450,
+						"size": 73889,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "espaco_mesa.min.jpg",
+						"path": "src/assets/images/espaco_mesa.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -1262,17 +2174,33 @@
 				"img": {
 					"path": "assets/images/auto_retrato.jpg",
 					"info": {
-						"height": 1200,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 900,
-						"type": "jpg"
+						"height": 1200,
+						"size": 263072,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "auto_retrato.jpg",
+						"path": "src/assets/images/auto_retrato.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_auto_retrato.jpg",
+					"path": "assets/images/auto_retrato.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 72450,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "auto_retrato.min.jpg",
+						"path": "src/assets/images/auto_retrato.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1284,17 +2212,33 @@
 				"img": {
 					"path": "assets/images/retrato2.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 388473,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "retrato2.jpg",
+						"path": "src/assets/images/retrato2.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_retrato2.jpg",
+					"path": "assets/images/retrato2.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 60210,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "retrato2.min.jpg",
+						"path": "src/assets/images/retrato2.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1306,17 +2250,33 @@
 				"img": {
 					"path": "assets/images/windsurf.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1078,
-						"type": "jpg"
+						"height": 1500,
+						"size": 459437,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "windsurf.jpg",
+						"path": "src/assets/images/windsurf.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_windsurf.jpg",
+					"path": "assets/images/windsurf.min.jpg",
 					"info": {
-						"height": 556,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 626,
+						"size": 83369,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "windsurf.min.jpg",
+						"path": "src/assets/images/windsurf.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1328,17 +2288,33 @@
 				"img": {
 					"path": "assets/images/casa_de_campo.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 571330,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "casa_de_campo.jpg",
+						"path": "src/assets/images/casa_de_campo.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_casa_de_campo.jpg",
+					"path": "assets/images/casa_de_campo.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 111225,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "casa_de_campo.min.jpg",
+						"path": "src/assets/images/casa_de_campo.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1350,17 +2326,33 @@
 				"img": {
 					"path": "assets/images/carnaval_de_veneza.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1284,
-						"type": "jpg"
+						"height": 1000,
+						"size": 308286,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "carnaval_de_veneza.jpg",
+						"path": "src/assets/images/carnaval_de_veneza.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_carnaval_de_veneza.jpg",
+					"path": "assets/images/carnaval_de_veneza.min.jpg",
 					"info": {
-						"height": 467,
-						"width": 600,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 578,
+						"height": 450,
+						"size": 67602,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "carnaval_de_veneza.min.jpg",
+						"path": "src/assets/images/carnaval_de_veneza.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1372,17 +2364,33 @@
 				"img": {
 					"path": "assets/images/manguezal.jpg",
 					"info": {
-						"height": 1300,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1011,
-						"type": "jpg"
+						"height": 1300,
+						"size": 499360,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "manguezal.jpg",
+						"path": "src/assets/images/manguezal.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_manguezal.jpg",
+					"path": "assets/images/manguezal.min.jpg",
 					"info": {
-						"height": 514,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 579,
+						"size": 106414,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "manguezal.min.jpg",
+						"path": "src/assets/images/manguezal.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1394,17 +2402,33 @@
 				"img": {
 					"path": "assets/images/flor.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 753274,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "flor.jpg",
+						"path": "src/assets/images/flor.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_flor.jpg",
+					"path": "assets/images/flor.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 127335,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "flor.min.jpg",
+						"path": "src/assets/images/flor.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1416,17 +2440,33 @@
 				"img": {
 					"path": "assets/images/orixa.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 513617,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "orixa.jpg",
+						"path": "src/assets/images/orixa.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_orixa.jpg",
+					"path": "assets/images/orixa.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 86844,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "orixa.min.jpg",
+						"path": "src/assets/images/orixa.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1438,17 +2478,33 @@
 				"img": {
 					"path": "assets/images/iemanja.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 366579,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "iemanja.jpg",
+						"path": "src/assets/images/iemanja.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_iemanja.jpg",
+					"path": "assets/images/iemanja.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 56344,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "iemanja.min.jpg",
+						"path": "src/assets/images/iemanja.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1460,17 +2516,33 @@
 				"img": {
 					"path": "assets/images/floresta2.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 474275,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "floresta2.jpg",
+						"path": "src/assets/images/floresta2.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_floresta2.jpg",
+					"path": "assets/images/floresta2.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 95343,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "floresta2.min.jpg",
+						"path": "src/assets/images/floresta2.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1482,17 +2554,33 @@
 				"img": {
 					"path": "assets/images/pierro.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1061,
-						"type": "jpg"
+						"height": 1000,
+						"size": 268189,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "pierro.jpg",
+						"path": "src/assets/images/pierro.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_pierro.jpg",
+					"path": "assets/images/pierro.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 424,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 477,
+						"height": 450,
+						"size": 54642,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "pierro.min.jpg",
+						"path": "src/assets/images/pierro.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1504,17 +2592,33 @@
 				"img": {
 					"path": "assets/images/praia.jpg",
 					"info": {
-						"height": 1000,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 2504,
-						"type": "jpg"
+						"height": 1000,
+						"size": 968266,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "praia.jpg",
+						"path": "src/assets/images/praia.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_praia.jpg",
+					"path": "assets/images/praia.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 1001,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 1127,
+						"height": 450,
+						"size": 186383,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "praia.min.jpg",
+						"path": "src/assets/images/praia.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1526,17 +2630,33 @@
 				"img": {
 					"path": "assets/images/paranoia.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 282124,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "paranoia.jpg",
+						"path": "src/assets/images/paranoia.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_paranoia.jpg",
+					"path": "assets/images/paranoia.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 52061,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "paranoia.min.jpg",
+						"path": "src/assets/images/paranoia.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1548,17 +2668,33 @@
 				"img": {
 					"path": "assets/images/passeio_de_domingo.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 443108,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "passeio_de_domingo.jpg",
+						"path": "src/assets/images/passeio_de_domingo.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_passeio_de_domingo.jpg",
+					"path": "assets/images/passeio_de_domingo.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 80563,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "passeio_de_domingo.min.jpg",
+						"path": "src/assets/images/passeio_de_domingo.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1570,17 +2706,33 @@
 				"img": {
 					"path": "assets/images/homenagem_a_monet.jpg",
 					"info": {
-						"height": 1300,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1113,
-						"type": "jpg"
+						"height": 1300,
+						"size": 481181,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "homenagem_a_monet.jpg",
+						"path": "src/assets/images/homenagem_a_monet.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_homenagem_a_monet.jpg",
+					"path": "assets/images/homenagem_a_monet.min.jpg",
 					"info": {
-						"height": 467,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 526,
+						"size": 82188,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "homenagem_a_monet.min.jpg",
+						"path": "src/assets/images/homenagem_a_monet.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1592,17 +2744,33 @@
 				"img": {
 					"path": "assets/images/auto_retrato2.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 500599,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "auto_retrato2.jpg",
+						"path": "src/assets/images/auto_retrato2.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_auto_retrato2.jpg",
+					"path": "assets/images/auto_retrato2.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 78987,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "auto_retrato2.min.jpg",
+						"path": "src/assets/images/auto_retrato2.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1614,17 +2782,33 @@
 				"img": {
 					"path": "assets/images/ritual.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1063,
-						"type": "jpg"
+						"height": 1500,
+						"size": 733422,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "ritual.jpg",
+						"path": "src/assets/images/ritual.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_ritual.jpg",
+					"path": "assets/images/ritual.min.jpg",
 					"info": {
-						"height": 564,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 635,
+						"size": 135647,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "ritual.min.jpg",
+						"path": "src/assets/images/ritual.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1636,17 +2820,33 @@
 				"img": {
 					"path": "assets/images/47st.jpg",
 					"info": {
-						"height": 1240,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1240,
+						"size": 468888,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "47st.jpg",
+						"path": "src/assets/images/47st.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_47st.jpg",
+					"path": "assets/images/47st.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 483,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 544,
+						"height": 450,
+						"size": 83181,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "47st.min.jpg",
+						"path": "src/assets/images/47st.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1658,17 +2858,33 @@
 				"img": {
 					"path": "assets/images/retrato3.jpg",
 					"info": {
-						"height": 1375,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 984,
-						"type": "jpg"
+						"height": 1375,
+						"size": 245742,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "retrato3.jpg",
+						"path": "src/assets/images/retrato3.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_retrato3.jpg",
+					"path": "assets/images/retrato3.min.jpg",
 					"info": {
-						"height": 558,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 629,
+						"size": 56615,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "retrato3.min.jpg",
+						"path": "src/assets/images/retrato3.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1680,17 +2896,33 @@
 				"img": {
 					"path": "assets/images/retrato4.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1125,
-						"type": "jpg"
+						"height": 1500,
+						"size": 585978,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "retrato4.jpg",
+						"path": "src/assets/images/retrato4.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_retrato4.jpg",
+					"path": "assets/images/retrato4.min.jpg",
 					"info": {
-						"height": 533,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 600,
+						"size": 96075,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "retrato4.min.jpg",
+						"path": "src/assets/images/retrato4.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1702,17 +2934,33 @@
 				"img": {
 					"path": "assets/images/casa_espanhola.jpg",
 					"info": {
-						"height": 1247,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1247,
+						"size": 644566,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "casa_espanhola.jpg",
+						"path": "src/assets/images/casa_espanhola.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_casa_espanhola.jpg",
+					"path": "assets/images/casa_espanhola.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 481,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 541,
+						"height": 450,
+						"size": 97408,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "casa_espanhola.min.jpg",
+						"path": "src/assets/images/casa_espanhola.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1724,17 +2972,33 @@
 				"img": {
 					"path": "assets/images/catadores_de_amendoa.jpg",
 					"info": {
-						"height": 1488,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1488,
+						"size": 676928,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "catadores_de_amendoa.jpg",
+						"path": "src/assets/images/catadores_de_amendoa.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_catadores_de_amendoa.jpg",
+					"path": "assets/images/catadores_de_amendoa.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 403,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 454,
+						"height": 450,
+						"size": 83252,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "catadores_de_amendoa.min.jpg",
+						"path": "src/assets/images/catadores_de_amendoa.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1746,17 +3010,33 @@
 				"img": {
 					"path": "assets/images/dia_de_folga.jpg",
 					"info": {
-						"height": 1223,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1223,
+						"size": 476414,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "dia_de_folga.jpg",
+						"path": "src/assets/images/dia_de_folga.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_dia_de_folga.jpg",
+					"path": "assets/images/dia_de_folga.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 490,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 552,
+						"height": 450,
+						"size": 71890,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "dia_de_folga.min.jpg",
+						"path": "src/assets/images/dia_de_folga.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1768,17 +3048,33 @@
 				"img": {
 					"path": "assets/images/jazz.jpg",
 					"info": {
-						"height": 1165,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1165,
+						"size": 544671,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "jazz.jpg",
+						"path": "src/assets/images/jazz.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_jazz.jpg",
+					"path": "assets/images/jazz.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 515,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 579,
+						"height": 450,
+						"size": 77464,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "jazz.min.jpg",
+						"path": "src/assets/images/jazz.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1790,17 +3086,33 @@
 				"img": {
 					"path": "assets/images/natureza_morta.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1088,
-						"type": "jpg"
+						"height": 1500,
+						"size": 585882,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "natureza_morta.jpg",
+						"path": "src/assets/images/natureza_morta.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_natureza_morta.jpg",
+					"path": "assets/images/natureza_morta.min.jpg",
 					"info": {
-						"height": 551,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 620,
+						"size": 107123,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "natureza_morta.min.jpg",
+						"path": "src/assets/images/natureza_morta.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1812,17 +3124,33 @@
 				"img": {
 					"path": "assets/images/pintura_na_parede.jpg",
 					"info": {
-						"height": 1125,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1125,
+						"size": 763432,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "pintura_na_parede.jpg",
+						"path": "src/assets/images/pintura_na_parede.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_pintura_na_parede.jpg",
+					"path": "assets/images/pintura_na_parede.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 533,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 600,
+						"height": 450,
+						"size": 148922,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "pintura_na_parede.min.jpg",
+						"path": "src/assets/images/pintura_na_parede.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -1834,17 +3162,33 @@
 				"img": {
 					"path": "assets/images/rue_saint_dominique.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 994,
-						"type": "jpg"
+						"height": 1500,
+						"size": 507400,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "rue_saint_dominique.jpg",
+						"path": "src/assets/images/rue_saint_dominique.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_rue_saint_dominique.jpg",
+					"path": "assets/images/rue_saint_dominique.min.jpg",
 					"info": {
-						"height": 603,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 679,
+						"size": 119052,
+						"density": {
+							"x": 480,
+							"y": 480
+						},
+						"name": "rue_saint_dominique.min.jpg",
+						"path": "src/assets/images/rue_saint_dominique.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1856,17 +3200,33 @@
 				"img": {
 					"path": "assets/images/ka-6.jpg",
 					"info": {
-						"height": 1090,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1090,
+						"size": 590696,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "ka-6.jpg",
+						"path": "src/assets/images/ka-6.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_ka-6.jpg",
+					"path": "assets/images/ka-6.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 550,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 619,
+						"height": 450,
+						"size": 116805,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "ka-6.min.jpg",
+						"path": "src/assets/images/ka-6.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1878,17 +3238,33 @@
 				"img": {
 					"path": "assets/images/rua_das_pedras.jpg",
 					"info": {
-						"height": 1080,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1497,
-						"type": "jpg"
+						"height": 1080,
+						"size": 467587,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "rua_das_pedras.jpg",
+						"path": "src/assets/images/rua_das_pedras.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_rua_das_pedras.jpg",
+					"path": "assets/images/rua_das_pedras.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 554,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 624,
+						"height": 450,
+						"size": 113741,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "rua_das_pedras.min.jpg",
+						"path": "src/assets/images/rua_das_pedras.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1900,17 +3276,33 @@
 				"img": {
 					"path": "assets/images/velejo.jpg",
 					"info": {
-						"height": 1299,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1299,
+						"size": 573120,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "velejo.jpg",
+						"path": "src/assets/images/velejo.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_velejo.jpg",
+					"path": "assets/images/velejo.min.jpg",
 					"info": {
-						"height": 433,
-						"width": 500,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 520,
+						"height": 450,
+						"size": 76763,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "velejo.min.jpg",
+						"path": "src/assets/images/velejo.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1922,17 +3314,33 @@
 				"img": {
 					"path": "assets/images/trompeloeil.jpg",
 					"info": {
-						"height": 981,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 981,
+						"size": 199771,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "trompeloeil.jpg",
+						"path": "src/assets/images/trompeloeil.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_trompeloeil.jpg",
+					"path": "assets/images/trompeloeil.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 611,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 688,
+						"height": 450,
+						"size": 52460,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "trompeloeil.min.jpg",
+						"path": "src/assets/images/trompeloeil.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -1944,17 +3352,33 @@
 				"img": {
 					"path": "assets/images/trompeloeil_full.jpg",
 					"info": {
-						"height": 929,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1353,
-						"type": "jpg"
+						"height": 929,
+						"size": 149257,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "trompeloeil_full.jpg",
+						"path": "src/assets/images/trompeloeil_full.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_trompeloeil_full.jpg",
+					"path": "assets/images/trompeloeil_full.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 582,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 655,
+						"height": 450,
+						"size": 46787,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "trompeloeil_full.min.jpg",
+						"path": "src/assets/images/trompeloeil_full.min.jpg"
 					}
 				},
 				"type": "decoracao"
@@ -1966,17 +3390,33 @@
 				"img": {
 					"path": "assets/images/84a47b.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1167,
-						"type": "jpg"
+						"height": 1500,
+						"size": 220727,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "84a47b.jpg",
+						"path": "src/assets/images/84a47b.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_84a47b.jpg",
+					"path": "assets/images/84a47b.min.jpg",
 					"info": {
-						"height": 514,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 578,
+						"size": 45374,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "84a47b.min.jpg",
+						"path": "src/assets/images/84a47b.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -1988,17 +3428,33 @@
 				"img": {
 					"path": "assets/images/92.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1179,
-						"type": "jpg"
+						"height": 1500,
+						"size": 606070,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "92.jpg",
+						"path": "src/assets/images/92.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_92.jpg",
+					"path": "assets/images/92.min.jpg",
 					"info": {
-						"height": 1500,
-						"width": 1179,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 573,
+						"size": 93027,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "92.min.jpg",
+						"path": "src/assets/images/92.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2010,17 +3466,33 @@
 				"img": {
 					"path": "assets/images/palhaco.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1034,
-						"type": "jpg"
+						"height": 1500,
+						"size": 448774,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "palhaco.jpg",
+						"path": "src/assets/images/palhaco.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_palhaco.jpg",
+					"path": "assets/images/palhaco.min.jpg",
 					"info": {
-						"height": 725,
-						"width": 500,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 653,
+						"size": 89265,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "palhaco.min.jpg",
+						"path": "src/assets/images/palhaco.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2032,17 +3504,33 @@
 				"img": {
 					"path": "assets/images/macaco_circo.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1033,
-						"type": "jpg"
+						"height": 1500,
+						"size": 190822,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "macaco_circo.jpg",
+						"path": "src/assets/images/macaco_circo.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_macaco_circo.jpg",
+					"path": "assets/images/macaco_circo.min.jpg",
 					"info": {
-						"height": 580,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 653,
+						"size": 49991,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "macaco_circo.min.jpg",
+						"path": "src/assets/images/macaco_circo.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2054,17 +3542,33 @@
 				"img": {
 					"path": "assets/images/95.jpg",
 					"info": {
-						"height": 1412,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1400,
-						"type": "jpg"
+						"height": 1412,
+						"size": 681835,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "95.jpg",
+						"path": "src/assets/images/95.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_95.jpg",
+					"path": "assets/images/95.min.jpg",
 					"info": {
-						"height": 403,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 454,
+						"size": 114345,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "95.min.jpg",
+						"path": "src/assets/images/95.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2076,17 +3580,33 @@
 				"img": {
 					"path": "assets/images/danca_no_gelo.jpg",
 					"info": {
-						"height": 1012,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1012,
+						"size": 493261,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "danca_no_gelo.jpg",
+						"path": "src/assets/images/danca_no_gelo.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_danca_no_gelo.jpg",
+					"path": "assets/images/danca_no_gelo.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 592,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 667,
+						"height": 450,
+						"size": 95886,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "danca_no_gelo.min.jpg",
+						"path": "src/assets/images/danca_no_gelo.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2098,17 +3618,33 @@
 				"img": {
 					"path": "assets/images/97.jpg",
 					"info": {
-						"height": 1308,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1308,
+						"size": 782449,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "97.jpg",
+						"path": "src/assets/images/97.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_97.jpg",
+					"path": "assets/images/97.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 458,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 516,
+						"height": 450,
+						"size": 121234,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "97.min.jpg",
+						"path": "src/assets/images/97.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2120,17 +3656,33 @@
 				"img": {
 					"path": "assets/images/98.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1278,
-						"type": "jpg"
+						"height": 1500,
+						"size": 622001,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "98.jpg",
+						"path": "src/assets/images/98.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_98.jpg",
+					"path": "assets/images/98.min.jpg",
 					"info": {
-						"height": 469,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 528,
+						"size": 112502,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "98.min.jpg",
+						"path": "src/assets/images/98.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2142,17 +3694,33 @@
 				"img": {
 					"path": "assets/images/praia2.jpg",
 					"info": {
-						"height": 1035,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1035,
+						"size": 512874,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "praia2.jpg",
+						"path": "src/assets/images/praia2.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_praia2.jpg",
+					"path": "assets/images/praia2.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 579,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 652,
+						"height": 450,
+						"size": 113737,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "praia2.min.jpg",
+						"path": "src/assets/images/praia2.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2164,17 +3732,33 @@
 				"img": {
 					"path": "assets/images/100.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1225,
-						"type": "jpg"
+						"height": 1500,
+						"size": 737480,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "100.jpg",
+						"path": "src/assets/images/100.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_100.jpg",
+					"path": "assets/images/100.min.jpg",
 					"info": {
-						"height": 489,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 551,
+						"size": 128596,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "100.min.jpg",
+						"path": "src/assets/images/100.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2186,17 +3770,33 @@
 				"img": {
 					"path": "assets/images/101.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1467,
-						"type": "jpg"
+						"height": 1500,
+						"size": 637421,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "101.jpg",
+						"path": "src/assets/images/101.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_101.jpg",
+					"path": "assets/images/101.min.jpg",
 					"info": {
-						"height": 408,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 460,
+						"size": 95277,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "101.min.jpg",
+						"path": "src/assets/images/101.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2208,17 +3808,33 @@
 				"img": {
 					"path": "assets/images/102.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1094,
-						"type": "jpg"
+						"height": 1500,
+						"size": 522905,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "102.jpg",
+						"path": "src/assets/images/102.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_102.jpg",
+					"path": "assets/images/102.min.jpg",
 					"info": {
-						"height": 548,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 617,
+						"size": 108523,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "102.min.jpg",
+						"path": "src/assets/images/102.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2230,17 +3846,33 @@
 				"img": {
 					"path": "assets/images/103.jpg",
 					"info": {
-						"height": 1166,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1166,
+						"size": 438986,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "103.jpg",
+						"path": "src/assets/images/103.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_103.jpg",
+					"path": "assets/images/103.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 514,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 579,
+						"height": 450,
+						"size": 87637,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "103.min.jpg",
+						"path": "src/assets/images/103.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2252,17 +3884,33 @@
 				"img": {
 					"path": "assets/images/104.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1191,
-						"type": "jpg"
+						"height": 1500,
+						"size": 545113,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "104.jpg",
+						"path": "src/assets/images/104.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_104.jpg",
+					"path": "assets/images/104.min.jpg",
 					"info": {
-						"height": 503,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 567,
+						"size": 93368,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "104.min.jpg",
+						"path": "src/assets/images/104.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2274,17 +3922,33 @@
 				"img": {
 					"path": "assets/images/105.jpg",
 					"info": {
-						"height": 1074,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1500,
-						"type": "jpg"
+						"height": 1074,
+						"size": 546518,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "105.jpg",
+						"path": "src/assets/images/105.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_105.jpg",
+					"path": "assets/images/105.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 558,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 628,
+						"height": 450,
+						"size": 123341,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "105.min.jpg",
+						"path": "src/assets/images/105.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2296,17 +3960,33 @@
 				"img": {
 					"path": "assets/images/106.jpg",
 					"info": {
-						"height": 1500,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 901,
-						"type": "jpg"
+						"height": 1500,
+						"size": 480211,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "106.jpg",
+						"path": "src/assets/images/106.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_106.jpg",
+					"path": "assets/images/106.min.jpg",
 					"info": {
-						"height": 665,
-						"width": 400,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 450,
+						"height": 749,
+						"size": 133982,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "106.min.jpg",
+						"path": "src/assets/images/106.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2318,17 +3998,33 @@
 				"img": {
 					"path": "assets/images/2barcos.jpg",
 					"info": {
-						"height": 852,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1186,
-						"type": "jpg"
+						"height": 852,
+						"size": 219197,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "2barcos.jpg",
+						"path": "src/assets/images/2barcos.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_2barcos.jpg",
+					"path": "assets/images/2barcos.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 556,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 626,
+						"height": 450,
+						"size": 72874,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "2barcos.min.jpg",
+						"path": "src/assets/images/2barcos.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2340,17 +4036,33 @@
 				"img": {
 					"path": "assets/images/anvil_carrack.jpg",
 					"info": {
-						"height": 815,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1146,
-						"type": "jpg"
+						"height": 815,
+						"size": 124928,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "anvil_carrack.jpg",
+						"path": "src/assets/images/anvil_carrack.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_anvil_carrack.jpg",
+					"path": "assets/images/anvil_carrack.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 562,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 633,
+						"height": 450,
+						"size": 47935,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "anvil_carrack.min.jpg",
+						"path": "src/assets/images/anvil_carrack.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2362,17 +4074,33 @@
 				"img": {
 					"path": "assets/images/cafe.jpg",
 					"info": {
-						"height": 847,
+						"type": "jpeg",
+						"depth": 8,
 						"width": 1059,
-						"type": "jpg"
+						"height": 847,
+						"size": 116161,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "cafe.jpg",
+						"path": "src/assets/images/cafe.jpg"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/min_cafe.jpg",
+					"path": "assets/images/cafe.min.jpg",
 					"info": {
-						"height": 400,
-						"width": 500,
-						"type": "jpg"
+						"type": "jpeg",
+						"depth": 8,
+						"width": 563,
+						"height": 450,
+						"size": 45390,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "cafe.min.jpg",
+						"path": "src/assets/images/cafe.min.jpg"
 					}
 				},
 				"type": "oleo"
@@ -2384,17 +4112,33 @@
 				"img": {
 					"path": "assets/images/abstract1.png",
 					"info": {
+						"type": "png",
+						"depth": 8,
 						"width": 869,
 						"height": 1080,
-						"type": "png"
+						"size": 1462204,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract1.png",
+						"path": "src/assets/images/abstract1.png"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/abstract1.png",
+					"path": "assets/images/abstract1.min.png",
 					"info": {
-						"width": 869,
-						"height": 1080,
-						"type": "png"
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 559,
+						"size": 412716,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract1.min.png",
+						"path": "src/assets/images/abstract1.min.png"
 					}
 				},
 				"type": "oleo"
@@ -2406,17 +4150,33 @@
 				"img": {
 					"path": "assets/images/abstract2.png",
 					"info": {
+						"type": "png",
+						"depth": 8,
 						"width": 874,
 						"height": 1080,
-						"type": "png"
+						"size": 1448105,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract2.png",
+						"path": "src/assets/images/abstract2.png"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/abstract2.png",
+					"path": "assets/images/abstract2.min.png",
 					"info": {
-						"width": 869,
-						"height": 1080,
-						"type": "png"
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 556,
+						"size": 411735,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract2.min.png",
+						"path": "src/assets/images/abstract2.min.png"
 					}
 				},
 				"type": "oleo"
@@ -2428,17 +4188,33 @@
 				"img": {
 					"path": "assets/images/abstract3.png",
 					"info": {
+						"type": "png",
+						"depth": 8,
 						"width": 842,
 						"height": 1080,
-						"type": "png"
+						"size": 1295555,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract3.png",
+						"path": "src/assets/images/abstract3.png"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/abstract3.png",
+					"path": "assets/images/abstract3.min.png",
 					"info": {
-						"width": 869,
-						"height": 1080,
-						"type": "png"
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 577,
+						"size": 390397,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract3.min.png",
+						"path": "src/assets/images/abstract3.min.png"
 					}
 				},
 				"type": "oleo"
@@ -2450,17 +4226,33 @@
 				"img": {
 					"path": "assets/images/abstract4.png",
 					"info": {
+						"type": "png",
+						"depth": 8,
 						"width": 877,
 						"height": 1080,
-						"type": "png"
+						"size": 1348868,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract4.png",
+						"path": "src/assets/images/abstract4.png"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/abstract4.png",
+					"path": "assets/images/abstract4.min.png",
 					"info": {
-						"width": 869,
-						"height": 1080,
-						"type": "png"
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 554,
+						"size": 377072,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract4.min.png",
+						"path": "src/assets/images/abstract4.min.png"
 					}
 				},
 				"type": "oleo"
@@ -2472,17 +4264,33 @@
 				"img": {
 					"path": "assets/images/abstract5.png",
 					"info": {
+						"type": "png",
+						"depth": 8,
 						"width": 866,
 						"height": 1080,
-						"type": "png"
+						"size": 1355841,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract5.png",
+						"path": "src/assets/images/abstract5.png"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/abstract5.png",
+					"path": "assets/images/abstract5.min.png",
 					"info": {
-						"width": 869,
-						"height": 1080,
-						"type": "png"
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 561,
+						"size": 396863,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract5.min.png",
+						"path": "src/assets/images/abstract5.min.png"
 					}
 				},
 				"type": "oleo"
@@ -2494,17 +4302,33 @@
 				"img": {
 					"path": "assets/images/abstract6.png",
 					"info": {
+						"type": "png",
+						"depth": 8,
 						"width": 869,
 						"height": 1080,
-						"type": "png"
+						"size": 1383304,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract6.png",
+						"path": "src/assets/images/abstract6.png"
 					}
 				},
 				"minImg": {
-					"path": "assets/images/abstract6.png",
+					"path": "assets/images/abstract6.min.png",
 					"info": {
-						"width": 869,
-						"height": 1080,
-						"type": "png"
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 559,
+						"size": 395883,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "abstract6.min.png",
+						"path": "src/assets/images/abstract6.min.png"
 					}
 				},
 				"type": "oleo"
