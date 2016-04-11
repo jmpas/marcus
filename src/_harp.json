@@ -4332,7 +4332,50 @@
 					}
 				},
 				"type": "oleo"
-			}
+			},
+      {
+				"id": "116",
+				"title": "Ship",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/ship.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/ship.min.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"type": "oleo"
+      },
+      {
+				"id": "117",
+				"title": "Ship",
+				"desc": "Óleo sobre tela",
+				"img": {
+					"path": "assets/images/ship2.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/ship2.min.png",
+					"info": {
+						"width": 869,
+						"height": 1080,
+						"type": "png"
+					}
+				},
+				"type": "oleo"
 		]
 	}
 }
