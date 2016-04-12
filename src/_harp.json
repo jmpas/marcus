@@ -4333,49 +4333,82 @@
 				},
 				"type": "oleo"
 			},
-      {
+			{
 				"id": "116",
 				"title": "Ship",
 				"desc": "Óleo sobre tela",
 				"img": {
 					"path": "assets/images/ship.png",
 					"info": {
-						"width": 869,
-						"height": 1080,
-						"type": "png"
+						"type": "png",
+						"depth": 8,
+						"width": 1080,
+						"height": 1356,
+						"size": 2095936,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "ship.png",
+						"path": "src/assets/images/ship.png"
 					}
 				},
 				"minImg": {
 					"path": "assets/images/ship.min.png",
 					"info": {
-						"width": 869,
-						"height": 1080,
-						"type": "png"
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 565,
+						"size": 397356,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "ship.min.png",
+						"path": "src/assets/images/ship.min.png"
 					}
 				},
 				"type": "oleo"
-      },
-      {
+			},
+			{
 				"id": "117",
 				"title": "Ship",
 				"desc": "Óleo sobre tela",
 				"img": {
 					"path": "assets/images/ship2.png",
 					"info": {
-						"width": 869,
+						"type": "png",
+						"depth": 8,
+						"width": 1352,
 						"height": 1080,
-						"type": "png"
+						"size": 1891768,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "ship2.png",
+						"path": "src/assets/images/ship2.png"
 					}
 				},
 				"minImg": {
 					"path": "assets/images/ship2.min.png",
 					"info": {
-						"width": 869,
-						"height": 1080,
-						"type": "png"
+						"type": "png",
+						"depth": 8,
+						"width": 563,
+						"height": 450,
+						"size": 371993,
+						"density": {
+							"x": 72,
+							"y": 72
+						},
+						"name": "ship2.min.png",
+						"path": "src/assets/images/ship2.min.png"
 					}
 				},
 				"type": "oleo"
+			}
 		]
 	}
 }
