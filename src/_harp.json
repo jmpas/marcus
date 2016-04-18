@@ -4408,6 +4408,196 @@
 					}
 				},
 				"type": "oleo"
+			},
+			{
+				"id": "118",
+				"title": "Pirate",
+				"desc": "",
+				"img": {
+					"path": "assets/images/pirate.png",
+					"info": {
+						"type": "png",
+						"depth": 8,
+						"width": 1080,
+						"height": 1328,
+						"size": 2751095,
+						"density": {
+							"x": 118.11,
+							"y": 118.11
+						},
+						"name": "pirate.png",
+						"path": "src/assets/images/pirate.png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/pirate.min.png",
+					"info": {
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 553,
+						"size": 496338,
+						"density": {
+							"x": 118.11,
+							"y": 118.11
+						},
+						"name": "pirate.min.png",
+						"path": "src/assets/images/pirate.min.png"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "119",
+				"title": "Jack Sparrow",
+				"desc": "",
+				"img": {
+					"path": "assets/images/jack-sparrow.png",
+					"info": {
+						"type": "png",
+						"depth": 8,
+						"width": 1080,
+						"height": 1458,
+						"size": 3104154,
+						"density": {
+							"x": 118.11,
+							"y": 118.11
+						},
+						"name": "jack-sparrow.png",
+						"path": "src/assets/images/jack-sparrow.png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/jack-sparrow.min.png",
+					"info": {
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 608,
+						"size": 550082,
+						"density": {
+							"x": 118.11,
+							"y": 118.11
+						},
+						"name": "jack-sparrow.min.png",
+						"path": "src/assets/images/jack-sparrow.min.png"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "120",
+				"title": "Mithrandir",
+				"desc": "",
+				"img": {
+					"path": "assets/images/gandalf.png",
+					"info": {
+						"type": "png",
+						"depth": 8,
+						"width": 1080,
+						"height": 1377,
+						"size": 2689110,
+						"density": {
+							"x": 118.11,
+							"y": 118.11
+						},
+						"name": "gandalf.png",
+						"path": "src/assets/images/gandalf.png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/gandalf.min.png",
+					"info": {
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 574,
+						"size": 489385,
+						"density": {
+							"x": 118.11,
+							"y": 118.11
+						},
+						"name": "gandalf.min.png",
+						"path": "src/assets/images/gandalf.min.png"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "121",
+				"title": "Forrest Gump",
+				"desc": "",
+				"img": {
+					"path": "assets/images/forrest-gump.png",
+					"info": {
+						"type": "png",
+						"depth": 8,
+						"width": 1080,
+						"height": 1419,
+						"size": 2284706,
+						"density": {
+							"x": 118.11,
+							"y": 118.11
+						},
+						"name": "forrest-gump.png",
+						"path": "src/assets/images/forrest-gump.png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/forrest-gump.min.png",
+					"info": {
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 591,
+						"size": 393436,
+						"density": {
+							"x": 118.11,
+							"y": 118.11
+						},
+						"name": "forrest-gump.min.png",
+						"path": "src/assets/images/forrest-gump.min.png"
+					}
+				},
+				"type": "oleo"
+			},
+			{
+				"id": "122",
+				"title": "Spock",
+				"desc": "",
+				"img": {
+					"path": "assets/images/spock.png",
+					"info": {
+						"type": "png",
+						"depth": 8,
+						"width": 1080,
+						"height": 1354,
+						"size": 2555677,
+						"density": {
+							"x": 118.11,
+							"y": 118.11
+						},
+						"name": "spock.png",
+						"path": "src/assets/images/spock.png"
+					}
+				},
+				"minImg": {
+					"path": "assets/images/spock.min.png",
+					"info": {
+						"type": "png",
+						"depth": 8,
+						"width": 450,
+						"height": 564,
+						"size": 431861,
+						"density": {
+							"x": 118.11,
+							"y": 118.11
+						},
+						"name": "spock.min.png",
+						"path": "src/assets/images/spock.min.png"
+					}
+				},
+				"type": "oleo"
 			}
 		]
 	}
