@@ -1,6 +1,5 @@
 'use strict';
 
-const bjson = require('bjson');
 const fs = require('fs');
 const easyimg = require('easyimage');
 

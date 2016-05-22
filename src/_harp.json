@@ -4826,6 +4826,82 @@
           }
         },
         "type": "oleo"
+      },
+      {
+        "id": "129",
+        "title": "Sailboat",
+        "desc": "",
+        "img": {
+          "path": "assets/images/sailboat.png",
+          "info": {
+            "type": "png",
+            "depth": 8,
+            "width": 1080,
+            "height": 854,
+            "size": 1727000,
+            "density": {
+              "x": 28.35,
+              "y": 28.35
+            },
+            "name": "sailboat.png",
+            "path": "src/assets/images/sailboat.png"
+          }
+        },
+        "minImg": {
+          "path": "assets/images/sailboat.min.png",
+          "info": {
+            "type": "png",
+            "depth": 8,
+            "width": 443,
+            "height": 350,
+            "size": 288000,
+            "density": {
+              "x": 28.35,
+              "y": 28.35
+            },
+            "name": "sailboat.min.png",
+            "path": "src/assets/images/sailboat.min.png"
+          }
+        },
+        "type": "oleo"
+      },
+      {
+        "id": "130",
+        "title": "Sailboat race",
+        "desc": "",
+        "img": {
+          "path": "assets/images/sailboat_race.png",
+          "info": {
+            "type": "png",
+            "depth": 8,
+            "width": 1080,
+            "height": 878,
+            "size": 1353000,
+            "density": {
+              "x": 72,
+              "y": 72
+            },
+            "name": "sailboat_race.png",
+            "path": "src/assets/images/sailboat_race.png"
+          }
+        },
+        "minImg": {
+          "path": "assets/images/sailboat_race.min.png",
+          "info": {
+            "type": "png",
+            "depth": 8,
+            "width": 431,
+            "height": 350,
+            "size": 226000,
+            "density": {
+              "x": 72,
+              "y": 72
+            },
+            "name": "sailboat_race.min.png",
+            "path": "src/assets/images/sailboat_race.min.png"
+          }
+        },
+        "type": "oleo"
       }
     ]
   }
