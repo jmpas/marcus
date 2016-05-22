@@ -1,21 +1,22 @@
 'use strict';
 
-var bjson = require('bjson');
-var fs = require('fs');
-var easyimg = require('easyimage');
+const bjson = require('bjson');
+const fs = require('fs');
+const easyimg = require('easyimage');
 
-var data = bjson('src/_harp.json');
+const data = JSON.parse(fs.readFileSync('src/_harp.json'));
 
 fs.readdir('src/assets/images', (err, images) => {
-  
+  const promises = [];
+
   if (err) {
     throw err;
   }
 
   images.forEach((image) => {
-    easyimg.info(`src/assets/images/${image}`)
+    let promise = easyimg.info(`src/assets/images/${image}`)
       .then(info => {
-        var i, n, job;
+        let i, n, job;
         
         for (i = 0, n = data.globals.jobs.length; i < n; i++) {
           job = data.globals.jobs[i];
@@ -27,7 +28,11 @@ fs.readdir('src/assets/images', (err, images) => {
           }
         }
       });
-  });
 
-  console.info('Images data updated!');
+    promises.push(promise);
+  });
+  
+  Promise.all(promises)
+    .then(() => fs.writeFileSync('src/_harp.json', JSON.stringify(data, null, 2)))
+    .then(() => console.info('Images data updated!'));
 });

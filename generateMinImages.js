@@ -11,17 +11,17 @@ fs.readdir('src/assets/images', (err, images) => {
 
     easyimg.info(`src/assets/images/${image}`)
       .then(info => {
-        let width, height, max = 450,
+        let width, height, max = 350,
             imgArr = image.split('.'),
             ext = imgArr[1],
             imgName = imgArr[0];
         
         if (info.width > info.height) {
-          height = 450;
-          width = info.width * (450 / info.height);
+          height = max;
+          width = info.width * (max / info.height);
         } else {
-          width = 450;
-          height = info.height * (450 / info.width);
+          width = max;
+          height = info.height * (max / info.width);
         }
         
         return easyimg.resize({
