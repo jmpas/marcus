@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run updateInfo && ./node_modules/.bin/harp server src",
-    "build": "npm run build:imgs && ./node_modules/.bin/harp compile src dist",
-    "build:imgs": "npm run min-imgs && npm run update-info && npm run opt-imgs",
-    "min-imgs": "node generateMinImages",
-    "update-info": "node updateImageData",
-    "opt-imgs": "./node_modules/.bin/imageoptim -d src/assets/images --verbose",
+    "start": "yarn update-info && yarn build:tpl && yarn serve",
+    "serve": "webpack-dev-server",
+    "build:front": "yarn build:tpl && webpack",
+    "rebuild": "yarn clean && yarn build:imgs && yarn build:tpl && webpack && cp src/favicon.ico dist",
+    "build:tpl": "pug -o dist -O src/_images.json src/index.pug",
+    "build:imgs": "yarn min-imgs && yarn update-info && yarn opt-imgs && cp -R src/images dist/images",
+    "clean": "rm -rf dist",
+    "min-imgs": "rm -rf src/images/*.min.* && resize src/images/* -w 400 -h 400 -s \".min\" -o src/images",
+    "update-info": "node update-image-data",
+    "opt-imgs": "imageoptim -d src/images --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,10 +27,28 @@
   },
   "homepage": "https://github.com/Nipher/marcus#readme",
   "devDependencies": {
+    "css-loader": "^0.26.1",
     "easyimage": "^2.1.0",
-    "harp": "^0.20.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "image-webpack-loader": "^3.2.0",
     "imageoptim-cli": "^1.14.8",
     "kouto-swiss": "^0.11.14",
-    "watch-cli": "^0.2.1"
+    "pug-cli": "^1.0.0-alpha6",
+    "resize-cli": "^0.0.4",
+    "script-loader": "^0.7.0",
+    "serve": "^3.2.3",
+    "static-server": "^2.0.4",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.4.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "classie": "^1.0.0",
+    "holderjs": "^2.9.4",
+    "imagesloaded": "^4.1.1",
+    "masonry-layout": "^4.1.1",
+    "photoswipe": "^4.1.1"
   }
 }

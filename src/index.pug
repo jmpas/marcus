@@ -1,0 +1,20 @@
+extends _layouts/default.pug
+
+block content
+  section.grid-wrap
+    #grid.grid.swipe-down.my-gallery(itemscope itemtype="http://schema.org/ImageGallery")
+      each image, i in images
+        - const imgPath = image.img.path
+        - const dataSize = `${image.img.width}x${image.img.height}`;
+        - const minPath = image.minImg.path;
+
+        figure.grid-item(itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject")
+          a(href=imgPath itemprop="contentUrl" data-size=dataSize)
+            if i < 8
+              img(src=minPath itemprop="thumbnail" alt=image.title)
+            else
+              img.lazy-load(data-img-src=minPath data-src=`holder.js/${dataSize}?&auto=yes` itemprop="thumbnail" alt=image.title)
+          figcaption.overlay(itemprop="caption description")
+            h2=image.title
+            p=image.desc
+  include _includes/photo_gallery.pug
