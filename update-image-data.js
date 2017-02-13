@@ -3,7 +3,7 @@ const fs = require('fs');
 const easyimg = require('easyimage');
 
 const data = JSON.parse(fs.readFileSync('src/_images.json'));
-const IMGS_PATH = path.resolve(__dirname, 'src/images');
+const IMGS_PATH = path.resolve(__dirname, 'dist/images');
 
 fs.readdir(IMGS_PATH, (err, images) => {
   if (err) {
