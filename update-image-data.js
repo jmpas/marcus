@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const easyimg = require('easyimage');
+const imageSize = require('image-size');
 
 const data = JSON.parse(fs.readFileSync('src/_images.json'));
 const IMGS_PATH = path.resolve(__dirname, 'dist/images');
@@ -11,16 +11,17 @@ fs.readdir(IMGS_PATH, (err, images) => {
   }
 
   const promises = images.map(image => {
-    return easyimg.info(`${IMGS_PATH}/${image}`)
+    return sizeOf(`${IMGS_PATH}/${image}`)
       .then(info => {
         for (let i = 0, n = data.images.length; i < n; i++) {
           const obj = data.images[i];
-          const newInfo = Object.assign({}, info, {path: `images/${info.path.split('/').pop()}`});
 
-          if (obj.img.name === image) {
+          if (obj.img.name.name === image) {
+            const newInfo = Object.assign({}, info, {path: `images/${image}`}, obj.img);
             obj.img = newInfo;
             break;
           } else if (obj.minImg.name === image) {
+            const newInfo = Object.assign({}, info, {path: `images/${image}`}, obj.minImg);
             obj.minImg = newInfo;
             break;
           }
@@ -33,3 +34,11 @@ fs.readdir(IMGS_PATH, (err, images) => {
     .then(() => console.info('Images data updated!'))
     .catch(err => console.error(err));
 });
+
+function sizeOf(img) {
+  return new Promise((resolve, reject) => {
+    imageSize(
+      path.resolve(img),
+      (err, dimensions) => err ? reject(err) : resolve(dimensions))
+  });
+}

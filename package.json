@@ -27,8 +27,8 @@
   "homepage": "https://github.com/Nipher/marcus#readme",
   "devDependencies": {
     "css-loader": "^0.26.1",
-    "easyimage": "^2.1.0",
     "extract-text-webpack-plugin": "^2.0.0-beta",
+    "image-size": "^0.5.1",
     "image-webpack-loader": "^3.2.0",
     "imageoptim-cli": "^1.14.8",
     "kouto-swiss": "^0.11.14",

@@ -729,7 +729,7 @@ colormin@^1.0.5:
     css-color-names "0.0.4"
     has "^1.0.1"
 
-colors@^1.0.3, colors@~1.1.2:
+colors@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
 
@@ -1215,14 +1215,6 @@ each-async@^1.0.0, each-async@^1.1.1:
   dependencies:
     onetime "^1.0.0"
     set-immediate-shim "^1.0.0"
-
-easyimage@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/easyimage/-/easyimage-2.1.0.tgz#4c3a06f7287a20da62c18201ec82fb928fabe348"
-  dependencies:
-    colors "^1.0.3"
-    mkdirp "^0.5.0"
-    q "^1.0.1"
 
 ecc-jsbn@~0.1.1:
   version "0.1.1"
@@ -3770,7 +3762,7 @@ punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
-q@^1.0.1, q@^1.1.2:
+q@^1.1.2:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.4.1.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
 
