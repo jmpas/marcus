@@ -1,6 +1,101 @@
 {
   "images": [
     {
+      "title": "Windsurf",
+      "desc": "Óleo sobre tela",
+      "img": {
+        "height": 1546,
+        "width": 1920,
+        "type": "jpg",
+        "path": "images/windsurf.jpg",
+        "name": "windsurf.jpg"
+      },
+      "minImg": {
+        "height": 322,
+        "width": 400,
+        "type": "jpg",
+        "path": "images/windsurf.min.jpg",
+        "name": "windsurf.min.jpg"
+      },
+      "type": "oleo"
+    },
+    {
+      "title": "Glory Morning",
+      "desc": "Óleo sobre tela",
+      "img": {
+        "height": 2361,
+        "width": 1920,
+        "type": "jpg",
+        "path": "images/glory_morning.jpg",
+        "name": "glory_morning.jpg"
+      },
+      "minImg": {
+        "height": 400,
+        "width": 325,
+        "type": "jpg",
+        "path": "images/glory_morning.min.jpg",
+        "name": "glory_morning.min.jpg"
+      },
+      "type": "oleo"
+    },
+    {
+      "title": "Partners",
+      "desc": "Óleo sobre tela",
+      "img": {
+        "height": 1533,
+        "width": 1920,
+        "type": "jpg",
+        "path": "images/partners.jpg",
+        "name": "partners.jpg"
+      },
+      "minImg": {
+        "height": 319,
+        "width": 400,
+        "type": "jpg",
+        "path": "images/partners.min.jpg",
+        "name": "partners.min.jpg"
+      },
+      "type": "oleo"
+    },
+    {
+      "title": "Sail Race",
+      "desc": "Óleo sobre tela",
+      "img": {
+        "height": 1527,
+        "width": 1920,
+        "type": "jpg",
+        "path": "images/sail_race.jpg",
+        "name": "sail_race.jpg"
+      },
+      "minImg": {
+        "height": 318,
+        "width": 400,
+        "type": "jpg",
+        "path": "images/sail_race.min.jpg",
+        "name": "sail_race.min.jpg"
+      },
+      "type": "oleo"
+    },
+    {
+      "title": "Watching",
+      "desc": "Óleo sobre tela",
+      "img": {
+        "height": 1511,
+        "width": 1920,
+        "type": "jpg",
+        "path": "images/watching.jpg",
+        "name": "watching.jpg"
+      },
+      "minImg": {
+        "height": 315,
+        "width": 400,
+        "type": "jpg",
+        "path": "images/watching.min.jpg",
+        "name": "watching.min.jpg"
+      },
+      "type": "oleo"
+    },
+    {
       "title": "York Park",
       "desc": "Óleo sobre tela",
       "img": {
@@ -1543,18 +1638,18 @@
       "title": "Windsurf",
       "desc": "Óleo sobre tela",
       "img": {
-        "height": 1500,
-        "width": 1078,
+        "height": 783,
+        "width": 1080,
         "type": "jpg",
-        "path": "images/windsurf.jpg",
-        "name": "windsurf.jpg"
+        "path": "images/wind-surf.jpg",
+        "name": "wind-surf.jpg"
       },
       "minImg": {
-        "height": 400,
-        "width": 287,
+        "height": 290,
+        "width": 400,
         "type": "jpg",
-        "path": "images/windsurf.min.jpg",
-        "name": "windsurf.min.jpg"
+        "path": "images/wind-surf.min.jpg",
+        "name": "wind-surf.min.jpg"
       },
       "type": "oleo"
     },
@@ -2607,18 +2702,18 @@
       "title": "Rochedos",
       "desc": "Óleo sobre tela",
       "img": {
-        "height": 1000,
-        "width": 1448,
+        "height": 1291,
+        "width": 1920,
         "type": "jpg",
-        "path": "images/Rochedos.jpg",
-        "name": "Rochedos.jpg"
+        "path": "images/rochedos.jpg",
+        "name": "rochedos.jpg"
       },
       "minImg": {
-        "height": 276,
+        "height": 269,
         "width": 400,
         "type": "jpg",
-        "path": "images/Rochedos.min.jpg",
-        "name": "Rochedos.min.jpg"
+        "path": "images/rochedos.min.jpg",
+        "name": "rochedos.min.jpg"
       },
       "type": "oleo"
     },

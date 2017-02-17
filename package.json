@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "yarn update-img-data && yarn build:tpl && webpack-dev-server",
-    "build": "yarn clean:dist && yarn build:imgs && yarn build:tpl && webpack -p",
+    "build": "yarn clean:dist && yarn build:imgs && yarn build:tpl && webpack -p && yarn opt-imgs",
     "build:tpl": "pug -o dist -O src/_images.json src/index.pug",
-    "build:imgs": "yarn copy-imgs && yarn min-imgs && yarn update-img-data && yarn opt-imgs",
+    "build:imgs": "yarn copy-imgs && yarn min-imgs && yarn update-img-data",
     "min-imgs": "rm -rf dist/images/*.min.* && resize dist/images/* -w 400 -h 400 -s \".min\" -o dist/images",
     "update-img-data": "node update-image-data",
     "opt-imgs": "imageoptim -d dist/images --verbose",

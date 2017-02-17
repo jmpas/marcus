@@ -1,10 +1,16 @@
 header
-  display flex
   color #fff
-  justify-content center
-  align-items center
   height 100%
   background main
+
+  &.static
+    height 12.5rem
+
+    .logo
+      .name
+        font-size .875rem
+      .text
+        font-size .563rem
 
   &.top
     animation goTop 1.4s ease-out 2s forwards
@@ -23,19 +29,25 @@ header
         animation-timing-function ease-out
         animation-fill-mode forwards
         animation-delay .8s, 2s
-.logo
 
-  .name
-    opacity 0
-    font-size 1.9rem
-    text-align center
+  .header-inner
+    display flex
+    justify-content center
+    align-items center
+    height 100%
 
-    animation fadeIn .8s ease-out forwards
+  .logo
+    .name
+      opacity 0
+      font-size 1.9rem
+      text-align center
 
-  .text
-    opacity 0
-    font-size 1.55rem
-    text-align center
+      animation fadeIn .8s ease-out forwards
 
-    animation fadeIn .8s ease-out forwards
-    animation-delay .8s
+    .text
+      opacity 0
+      font-size 1.55rem
+      text-align center
+
+      animation fadeIn .8s ease-out forwards
+      animation-delay .8s

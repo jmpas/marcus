@@ -8,10 +8,12 @@ meyer-reset()
 @import "_header.styl"
 @import "_logo.styl"
 
-body
+html, body
   height 100%
-  left 0
-  right 0
+
+body
+  display flex
+  flex-direction column
   margin auto
   font 16px/1.5 "Open Sans","Helvetica Neue",Helvetica,arial,sans-serif
   overflow-x hidden
@@ -24,6 +26,7 @@ body
     overflow hidden
 
 main
+  flex 1
   background secondary
 
   +media-query(only screen, min-width 640px )
@@ -32,3 +35,10 @@ main
     padding rem(10px) rem(50px)
   +media-query( only screen, min-width 1824px )
     padding rem(10px) rem(200px)
+
+a
+  :link
+    color inherit
+
+  :visited
+    color inherit

@@ -5,35 +5,34 @@ const imageSize = require('image-size');
 const data = JSON.parse(fs.readFileSync('src/_images.json'));
 const IMGS_PATH = path.resolve(__dirname, 'dist/images');
 
-fs.readdir(IMGS_PATH, (err, images) => {
-  if (err) {
-    throw err;
-  }
+const promises = data.images.reduce((promises, image) => {
+  const pImg = sizeOf(`${IMGS_PATH}/${image.img.name}`)
+    .then(info => {
+      image.img = Object.assign(
+        {},
+        image.img,
+        info,
+        {path: `images/${image.img.name}`}
+      );
+    });
 
-  const promises = images.map(image => {
-    return sizeOf(`${IMGS_PATH}/${image}`)
-      .then(info => {
-        for (let i = 0, n = data.images.length; i < n; i++) {
-          const obj = data.images[i];
+  const pMinImg = sizeOf(`${IMGS_PATH}/${image.minImg.name}`)
+    .then(info => {
+      image.minImg = Object.assign(
+        {},
+        image.minImg,
+        info,
+        {path: `images/${image.minImg.name}`}
+      );
+    });
 
-          if (obj.img.name.name === image) {
-            const newInfo = Object.assign({}, info, {path: `images/${image}`}, obj.img);
-            obj.img = newInfo;
-            break;
-          } else if (obj.minImg.name === image) {
-            const newInfo = Object.assign({}, info, {path: `images/${image}`}, obj.minImg);
-            obj.minImg = newInfo;
-            break;
-          }
-        }
-      });
-  });
+  return promises.concat([pImg, pMinImg]);
+}, []);
 
-  Promise.all(promises)
-    .then(() => fs.writeFileSync('src/_images.json', JSON.stringify(data, null, 2)))
-    .then(() => console.info('Images data updated!'))
-    .catch(err => console.error(err));
-});
+Promise.all(promises)
+  .then(() => fs.writeFileSync('src/_images.json', JSON.stringify(data, null, 2)))
+  .then(() => console.info('Images data updated!'))
+  .catch(err => console.error(err));
 
 function sizeOf(img) {
   return new Promise((resolve, reject) => {

@@ -1,4 +1,6 @@
 extends _layouts/default.pug
+block modifiers
+  - let body_modifier = 'loading'
 
 block content
   section.grid-wrap
@@ -18,3 +20,6 @@ block content
             h2=image.title
             p=image.desc
   include _includes/photo_gallery.pug
+
+block scripts
+  script(src='bundle.js')
