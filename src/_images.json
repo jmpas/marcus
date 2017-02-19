@@ -191,6 +191,25 @@
       "type": "oleo"
     },
     {
+      "title": "Jangada",
+      "desc": "Óleo sobre tela",
+      "img": {
+        "height": 1470,
+        "width": 1920,
+        "type": "jpg",
+        "path": "images/jangada.jpg",
+        "name": "jangada.jpg"
+      },
+      "minImg": {
+        "height": 306,
+        "width": 400,
+        "type": "jpg",
+        "path": "images/jangada.min.jpg",
+        "name": "jangada.min.jpg"
+      },
+      "type": "oleo"
+    },
+    {
       "title": "Árvore",
       "desc": "Óleo sobre tela",
       "img": {
@@ -225,6 +244,25 @@
         "type": "jpg",
         "path": "images/verao.min.jpg",
         "name": "verao.min.jpg"
+      },
+      "type": "oleo"
+    },
+    {
+      "title": "Gaivota",
+      "desc": "Óleo sobre tela",
+      "img": {
+        "height": 1519,
+        "width": 1920,
+        "type": "jpg",
+        "path": "images/gaivota.jpg",
+        "name": "gaivota.jpg"
+      },
+      "minImg": {
+        "height": 316,
+        "width": 400,
+        "type": "jpg",
+        "path": "images/gaivota.min.jpg",
+        "name": "gaivota.min.jpg"
       },
       "type": "oleo"
     },
