@@ -1,7 +1,10 @@
 header
   color #fff
   height 100%
+  max-height 100vh
   background main
+  position absolute
+  width 100%
 
   &.static
     height 12.5rem
@@ -13,7 +16,8 @@ header
         font-size .563rem
 
   &.top
-    animation goTop 1.4s ease-out 2s forwards
+    max-height 12.5rem
+    transition max-height 2.5s cubic-bezier(.19,1,.22,1) 2s
 
     .logo
       .name
