@@ -1,24 +1,13 @@
-require('../../node_modules/photoswipe/dist/default-skin/default-skin.css');
-require('../../node_modules/photoswipe/dist/photoswipe.css');
-require('../styl/index.styl');
-var masonry = require('masonry-layout');
-var classie = require('classie');
+window.Masonry = require('masonry-layout');
+window.classie = require('classie');
 require('script-loader!./modernizr');
-var imagesLoaded = require('imagesLoaded');
-require('script-loader!./animOnScroll');
+window.imagesLoaded = require('imagesLoaded');
+require('./animOnScroll');
 require('holderjs');
-var photoswipe = require('photoswipe');
-var photoswipeUIDefault = require('../../node_modules/photoswipe/src/js/ui/photoswipe-ui-default');
-var initPhotoSwipeFromDOM = require('./photoswipe-from-dom');
+window.PhotoSwipe = require('photoswipe');
+window['PhotoSwipeUI_Default'] = require('../../node_modules/photoswipe/src/js/ui/photoswipe-ui-default');
 
-window.Masonry = masonry;
-window.classie = classie;
-window.imagesLoaded = imagesLoaded;
-window.PhotoSwipe = photoswipe;
-window['PhotoSwipeUI_Default'] = photoswipeUIDefault;
-
-// execute above function
-initPhotoSwipeFromDOM('.my-gallery');
+require('./photoswipe-from-dom')('.my-gallery');
 
 var grid = document.querySelector('#grid');
 

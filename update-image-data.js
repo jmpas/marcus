@@ -3,7 +3,7 @@ const fs = require('fs');
 const imageSize = require('image-size');
 
 const data = JSON.parse(fs.readFileSync('src/_images.json'));
-const IMGS_PATH = path.resolve(__dirname, 'dist/images');
+const IMGS_PATH = path.resolve(__dirname, 'src/images');
 
 const promises = data.images.reduce((promises, image) => {
   const pImg = sizeOf(`${IMGS_PATH}/${image.img.name}`)

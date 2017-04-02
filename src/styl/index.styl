@@ -1,6 +1,13 @@
+// Vendor
+@import "~photoswipe/dist/default-skin/default-skin.css"
+@import "~photoswipe/dist/photoswipe.css"
 @import "../../node_modules/kouto-swiss"
+
+// Resets
 normalize()
 meyer-reset()
+
+// Website
 @import "_variables.styl"
 @import "_animations.styl"
 @import "_grid.styl"
@@ -40,7 +47,7 @@ main
   margin-top 12.5rem
   background secondary
 
-  +media-query(only screen, min-width 640px )
+  +media-query( only screen, min-width 640px )
     padding rem(5px) rem(20px)
   +media-query( only screen, min-width 960px )
     padding rem(10px) rem(50px)
