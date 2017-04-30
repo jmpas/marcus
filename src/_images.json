@@ -458,7 +458,7 @@
     },
     {
       "title": "Windsurf",
-      "desc": "",
+      "desc": "Óleo sobre tela",
       "img": {
         "height": 783,
         "width": 1080,
@@ -1669,25 +1669,6 @@
         "type": "jpg",
         "path": "images/casa_de_campo.min.jpg",
         "name": "casa_de_campo.min.jpg"
-      },
-      "type": "oleo"
-    },
-    {
-      "title": "Windsurf",
-      "desc": "Óleo sobre tela",
-      "img": {
-        "height": 783,
-        "width": 1080,
-        "type": "jpg",
-        "path": "images/wind-surf.jpg",
-        "name": "wind-surf.jpg"
-      },
-      "minImg": {
-        "height": 290,
-        "width": 400,
-        "type": "jpg",
-        "path": "images/wind-surf.min.jpg",
-        "name": "wind-surf.min.jpg"
       },
       "type": "oleo"
     },
