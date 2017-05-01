@@ -115,15 +115,18 @@ body.loading
     padding-top 13px
 
     .page
-      padding 13px 25px
       transition background .3s ease
-      cursor pointer
 
       &:hover
         background #1f1f1f
         transition background .3s ease
 
+      &.active
+        font-weight 400
+
       .link
+        display block
+        padding 13px 25px
         color #fff
         font-size 24px
         text-decoration none

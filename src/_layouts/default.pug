@@ -1,6 +1,7 @@
 block modifiers
   - body_modifier = body_modifier || ''
   - header_state = header_state || ''
+  - current_page = current_page || ''
 
 doctype html
 html(itemscope itemtype="http://schema.org/WebPage")
@@ -10,14 +11,13 @@ html(itemscope itemtype="http://schema.org/WebPage")
     .menu-overlay
     .navigation-container.delay
       .side-menu-btn
-      .current-page
-        | Home
+      .current-page= current_page
 
     nav.side-menu
       ul.pages
-        li.page
+        li.page(class=(current_page == 'Home' ? 'active' : ''))
           a.link(href="/") Home
-        li.page
+        li.page(class=(current_page == 'Portraits' ? 'active' : ''))
           a.link(href="/portraits") Portraits
 
     header(class=header_state)
