@@ -6,6 +6,20 @@ doctype html
 html(itemscope itemtype="http://schema.org/WebPage")
   include ../_includes/head.pug
   body(class=body_modifier)
+    input(type="checkbox").side-menu-check
+    .menu-overlay
+    .navigation-container.delay
+      .side-menu-btn
+      .current-page
+        | Home
+
+    nav.side-menu
+      ul.pages
+        li.page
+          a.link(href="/") Home
+        li.page
+          a.link(href="/portraits") Portraits
+
     header(class=header_state)
       .header-inner
         .logo

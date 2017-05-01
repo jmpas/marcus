@@ -1,0 +1,142 @@
+body.loading
+  .side-menu-check
+    display none
+
+  .navigation-container
+    opacity 0
+    transform translateX(-10px)
+    transition opacity .3s ease, transform .3s ease
+
+.side-menu-check
+  z-index 2
+  position absolute
+  top 20px
+  left 30px
+  opacity 0
+  height 40px
+  width 40px
+  cursor pointer
+
+  transition transform .3s ease
+
+  &:checked
+    height: 100%
+    width: 100%
+    left: 0
+    top: 0
+
+    transform translateX(300px)
+    transition transform .3s ease
+
+    ~ .navigation-container
+      transform translateX(300px)
+      transition transform .3s ease
+
+      .side-menu-btn
+        &:before
+          transform translateY(3px) rotate(135deg)
+        &:after
+          transform translateY(-3px) rotate(45deg)
+
+    ~ .side-menu
+      transform translateX(0)
+
+    ~ main
+      overflow hidden
+
+    ~ .footer
+      display none
+
+    ~ .menu-overlay
+      transform translateX(0)
+      opacity 1
+      transition transform .3s ease, opacity 1s ease
+
+.navigation-container
+  z-index 1
+  position absolute
+  top 20px
+  left 30px
+  display flex
+  align-items center
+  opacity 1
+  transform none
+
+  transition transform .3s ease, opacity .3s ease
+
+  &.delay
+    transition-delay 1s
+
+  .current-page
+    color #fff
+    margin-left 15px
+
+.side-menu-btn
+  background transparent
+  display flex
+  flex-direction column
+  justify-content space-between
+  height 40px
+  width 40px
+
+  &:before,
+  &:after
+    content ""
+    position absolute
+    top 16px
+    left 10px
+    width 20px
+    height 2px
+    background #fff
+    transition transform .3s ease-out
+
+  &:after
+    top auto
+    bottom 16px
+
+  .bar
+    display block
+    height 1px
+    width 36px
+    border-radius 2px
+    background #fff
+
+.side-menu
+  position absolute
+  width 300px
+  height 100%
+  transform translateX(-100%)
+  background main
+  z-index 1
+
+  transition transform .3s ease
+
+  .pages
+    padding-top 13px
+
+    .page
+      padding 13px 25px
+      transition background .3s ease
+      cursor pointer
+
+      &:hover
+        background #1f1f1f
+        transition background .3s ease
+
+      .link
+        color #fff
+        font-size 24px
+        text-decoration none
+
+.menu-overlay
+  position absolute
+  left 0
+  right 0
+  top 0
+  bottom 0
+  background rgba(0, 0, 0, .8)
+  opacity 0
+  transform translateX(100%)
+  z-index 1
+
+  transition transform .3s ease, opacity .4s cubic-bezier(0.27, 1.13, 0.47, 1.01)

@@ -29,6 +29,10 @@ function init() {
   setTimeout(function() {
     animHandler._onScrollFn();
     document.body.classList.remove('loading');
+
+    setTimeout(function() {
+      document.querySelector('.navigation-container.delay').classList.remove('delay');
+    }, 1000);
   }, 3000);
 }
 
