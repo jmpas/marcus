@@ -1,3 +1,213 @@
 {
-  "images": []
+  "images": [
+    {
+      "title": "Tarsila do Amaral",
+      "desc": "",
+      "img": {
+        "path": "images/portraits/tarsila-do-amaral.png",
+        "name": "tarsila-do-amaral.png",
+        "width": 1080,
+        "height": 1393,
+        "type": "png"
+      },
+      "minImg": {
+        "path": "images/portraits/tarsila-do-amaral.min.png",
+        "name": "tarsila-do-amaral.min.png",
+        "width": 310,
+        "height": 400,
+        "type": "png"
+      },
+      "type": "pastel"
+    },
+    {
+      "title": "Carmen Miranda",
+      "desc": "",
+      "img": {
+        "path": "images/portraits/carmen-miranda.png",
+        "name": "carmen-miranda.png",
+        "width": 1080,
+        "height": 1422,
+        "type": "png"
+      },
+      "minImg": {
+        "path": "images/portraits/carmen-miranda.min.png",
+        "name": "carmen-miranda.min.png",
+        "width": 304,
+        "height": 400,
+        "type": "png"
+      },
+      "type": "pastel"
+    },
+    {
+      "title": "Édith Piaf",
+      "desc": "",
+      "img": {
+        "path": "images/portraits/edith-piaf.png",
+        "name": "edith-piaf.png",
+        "width": 1080,
+        "height": 1434,
+        "type": "png"
+      },
+      "minImg": {
+        "path": "images/portraits/edith-piaf.min.png",
+        "name": "edith-piaf.min.png",
+        "width": 301,
+        "height": 400,
+        "type": "png"
+      },
+      "type": "pastel"
+    },
+    {
+      "title": "Clarice Lispector",
+      "desc": "",
+      "img": {
+        "path": "images/portraits/clarice-lispector.png",
+        "name": "clarice-lispector.png",
+        "width": 1080,
+        "height": 1379,
+        "type": "png"
+      },
+      "minImg": {
+        "path": "images/portraits/clarice-lispector.min.png",
+        "name": "clarice-lispector.min.png",
+        "width": 313,
+        "height": 400,
+        "type": "png"
+      },
+      "type": "pastel"
+    },
+    {
+      "title": "Grace Kelly",
+      "desc": "",
+      "img": {
+        "path": "images/portraits/grace-kelly.png",
+        "name": "grace-kelly.png",
+        "width": 1080,
+        "height": 1401,
+        "type": "png"
+      },
+      "minImg": {
+        "path": "images/portraits/grace-kelly.min.png",
+        "name": "grace-kelly.min.png",
+        "width": 308,
+        "height": 400,
+        "type": "png"
+      },
+      "type": "pastel"
+    },
+    {
+      "title": "Eva Perón",
+      "desc": "",
+      "img": {
+        "path": "images/portraits/eva-peron.png",
+        "name": "eva-peron.png",
+        "width": 1080,
+        "height": 1392,
+        "type": "png"
+      },
+      "minImg": {
+        "path": "images/portraits/eva-peron.min.png",
+        "name": "eva-peron.min.png",
+        "width": 310,
+        "height": 400,
+        "type": "png"
+      },
+      "type": "pastel"
+    },
+    {
+      "title": "Lou Salomé",
+      "desc": "",
+      "img": {
+        "path": "images/portraits/lou-salome.png",
+        "name": "lou-salome.png",
+        "width": 1080,
+        "height": 1440,
+        "type": "png"
+      },
+      "minImg": {
+        "path": "images/portraits/lou-salome.min.png",
+        "name": "lou-salome.min.png",
+        "width": 300,
+        "height": 400,
+        "type": "png"
+      },
+      "type": "pastel"
+    },
+    {
+      "title": "Nicole Kidman",
+      "desc": "",
+      "img": {
+        "path": "images/portraits/nicole-kidman.png",
+        "name": "nicole-kidman.png",
+        "width": 1080,
+        "height": 1406,
+        "type": "png"
+      },
+      "minImg": {
+        "path": "images/portraits/nicole-kidman.min.png",
+        "name": "nicole-kidman.min.png",
+        "width": 307,
+        "height": 400,
+        "type": "png"
+      },
+      "type": "pastel"
+    },
+    {
+      "title": "Diana",
+      "desc": "",
+      "img": {
+        "path": "images/portraits/princess-diana.png",
+        "name": "princess-diana.png",
+        "width": 1080,
+        "height": 1400,
+        "type": "png"
+      },
+      "minImg": {
+        "path": "images/portraits/princess-diana.min.png",
+        "name": "princess-diana.min.png",
+        "width": 309,
+        "height": 400,
+        "type": "png"
+      },
+      "type": "pastel"
+    },
+    {
+      "title": "Marilyn Monroe",
+      "desc": "",
+      "img": {
+        "path": "images/portraits/marilyn-monroe.png",
+        "name": "marilyn-monroe.png",
+        "width": 1080,
+        "height": 1440,
+        "type": "png"
+      },
+      "minImg": {
+        "path": "images/portraits/marilyn-monroe.min.png",
+        "name": "marilyn-monroe.min.png",
+        "width": 300,
+        "height": 400,
+        "type": "png"
+      },
+      "type": "pastel"
+    },
+    {
+      "title": "Simone de Beauvoir",
+      "desc": "",
+      "img": {
+        "path": "images/portraits/simone-de-beauvoir.png",
+        "name": "simone-de-beauvoir.png",
+        "width": 1080,
+        "height": 1421,
+        "type": "png"
+      },
+      "minImg": {
+        "path": "images/portraits/simone-de-beauvoir.min.png",
+        "name": "simone-de-beauvoir.min.png",
+        "width": 304,
+        "height": 400,
+        "type": "png"
+      },
+      "type": "pastel"
+    }
+  ]
 }

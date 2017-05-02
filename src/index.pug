@@ -7,9 +7,9 @@ block content
   section.grid-wrap
     #grid.grid.swipe-down.my-gallery(itemscope itemtype="http://schema.org/ImageGallery")
       each image, i in images
-        - const imgPath = '${require(`./' + image.img.path + '`)}'
+        - const imgPath = '/${require(`./' + image.img.path + '`)}'
         - const dataSize = `${image.img.width}x${image.img.height}`
-        - const minPath = '${require(`./' + image.minImg.path + '`)}'
+        - const minPath = '/${require(`./' + image.minImg.path + '`)}'
 
         figure.grid-item(itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject")
           a(href=imgPath itemprop="contentUrl" data-size=dataSize)
@@ -23,4 +23,4 @@ block content
   include _includes/photo_gallery.pug
 
 block scripts
-  script(src='bundle.js')
+  script(src='/bundle.js')

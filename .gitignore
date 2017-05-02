@@ -1,4 +1,4 @@
 node_modules
 dist
 *.log
-src/images/*.min.*
+src/images/**/*.min.*
