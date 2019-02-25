@@ -6,27 +6,18 @@ const data = JSON.parse(fs.readFileSync('src/_portraits.json'));
 const IMGS_PATH = path.resolve(__dirname, 'src/images/portraits');
 
 const promises = data.images.reduce((promises, image) => {
-  const pImg = sizeOf(`${IMGS_PATH}/${image.img.name}`)
+  
+  const imgInfo = sizeOf(`${IMGS_PATH}/${image}`)
     .then(info => {
       image.img = Object.assign(
         {},
         image.img,
         info,
-        {path: `images/portraits/${image.img.name}`}
+        {path: `images/portraits/${img.name}`}
       );
     });
 
-  const pMinImg = sizeOf(`${IMGS_PATH}/${image.minImg.name}`)
-    .then(info => {
-      image.minImg = Object.assign(
-        {},
-        image.minImg,
-        info,
-        {path: `images/portraits/${image.minImg.name}`}
-      );
-    });
-
-  return promises.concat([pImg, pMinImg]);
+  return promises.concat([imgInfo]);
 }, []);
 
 Promise.all(promises)

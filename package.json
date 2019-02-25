@@ -30,9 +30,10 @@
   },
   "homepage": "https://github.com/Nipher/marcus#readme",
   "devDependencies": {
-    "css-loader": "^0.26.1",
+    "css-loader": "^0.26.4",
     "extract-loader": "^0.1.0",
     "extract-text-webpack-plugin": "^2.0.0-beta",
+    "file-loader": "^3.0.1",
     "html-loader": "^0.4.5",
     "image-size": "^0.5.1",
     "image-webpack-loader": "^3.2.0",
@@ -43,7 +44,7 @@
     "script-loader": "^0.7.0",
     "style-loader": "^0.13.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^2.4.0",
+    "stylus-loader": "^2.5.1",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   },
