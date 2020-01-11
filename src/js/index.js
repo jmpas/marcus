@@ -1,22 +1,24 @@
-window.Masonry = require('masonry-layout');
-window.classie = require('classie');
-require('script-loader!./modernizr');
-window.imagesLoaded = require('imagesLoaded');
-require('./animOnScroll');
-require('holderjs');
-window.PhotoSwipe = require('photoswipe');
-window['PhotoSwipeUI_Default'] = require('../../node_modules/photoswipe/src/js/ui/photoswipe-ui-default');
+window.Masonry = require("masonry-layout");
+window.classie = require("classie");
+require("script-loader!./modernizr");
+window.imagesLoaded = require("imagesLoaded");
+require("./animOnScroll");
+require("holderjs");
+window.PhotoSwipe = require("photoswipe");
+window[
+  "PhotoSwipeUI_Default"
+] = require("../../node_modules/photoswipe/src/js/ui/photoswipe-ui-default");
 
-require('./photoswipe-from-dom')('.my-gallery');
+require("./photoswipe-from-dom")(".my-gallery");
 
-var grid = document.querySelector('#grid');
+var grid = document.querySelector("#grid");
 
 imagesLoaded(grid, init);
 
 function init() {
-  var header = document.querySelector('header');
+  var header = document.querySelector("header");
 
-  header.classList.add('top');
+  header.classList.add("top");
 
   var animHandler = new AnimOnScroll(grid, {
     minDuration: 0.4,
@@ -24,16 +26,22 @@ function init() {
     viewportFactor: 0.2
   });
 
-  setTimeout(function() { animHandler._onScrollFn(); }, 2000);
+  setTimeout(function() {
+    animHandler._onScrollFn();
+  }, 2000);
 
   setTimeout(function() {
     animHandler._onScrollFn();
-    document.body.classList.remove('loading');
+    document.body.classList.remove("loading");
 
     setTimeout(function() {
-      document.querySelector('.navigation-container.delay').classList.remove('delay');
+      document
+        .querySelector(".navigation-container.delay")
+        .classList.remove("delay");
     }, 1000);
-  }, 3000);
+  }, 2000);
 }
 
-window.addEventListener('unload', function() { window.scrollTo(0,0); });
+window.addEventListener("unload", function() {
+  window.scrollTo(0, 0);
+});
