@@ -149,6 +149,8 @@ AnimOnScroll.prototype = {
           img.src = imgSrc;
         }
 
+        classie.add(el, 'animate');
+
         imagesLoaded(el, function () {
           var perspY = scrollY() + getViewportH() / 2;
 
@@ -165,8 +167,6 @@ AnimOnScroll.prototype = {
             el.style.MozAnimationDuration = randDuration;
             el.style.animationDuration = randDuration;
           }
-
-          classie.add(el, 'animate');
         });
       } else {
         items.push(el);
@@ -201,3 +201,4 @@ AnimOnScroll.prototype = {
 
 // add to global namespace
 window.AnimOnScroll = AnimOnScroll;
+
