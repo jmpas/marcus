@@ -9,9 +9,9 @@ block content
   section.grid-wrap
     #grid.grid.swipe-down.my-gallery(itemscope itemtype="http://schema.org/ImageGallery")
       each image, i in images
-        - const imgPath = 'https://marcusartesecia.imgix.net/' + image.img.path
+        - const imgPath = 'https://res.cloudinary.com/nipher-io/image/upload/' + image.img.path
         - const dataSize = `${image.img.width}x${image.img.height}`
-        - const minPath = 'https://marcusartesecia.imgix.net/' + image.img.path + '?fit=fill&w=400&h=400'
+        - const minPath = 'https://res.cloudinary.com/nipher-io/image/upload/w_400/' + image.img.path
 
         figure.grid-item(itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject")
           a(href=imgPath itemprop="contentUrl" data-size=dataSize)
