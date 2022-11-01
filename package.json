@@ -37,7 +37,7 @@
     "html-loader": "^0.4.5",
     "image-size": "^0.5.1",
     "image-webpack-loader": "^3.2.0",
-    "kouto-swiss": "^0.11.14",
+    "kouto-swiss": "^1.1.0",
     "pug-cli": "^1.0.0-alpha6",
     "pug-html-loader": "^1.1.1",
     "resize-cli": "^0.0.4",
